@@ -6,12 +6,97 @@
     <meta name="handheldfriendly" content="true">
     <meta name="mobileoptimized" content="240">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 </head>
+
 <body class="noscript">
-Some boday text
-</body>
+<header>
+
+    <nav class="navbar navbar-default">
+        <div class="logo"><img src="/images/logo.png" alt="" width="100%" height="100%"/></div>
+        <div class="social_icon">
+            <img src="/images/search.png" alt=""/>
+            <img src="/images/facebook.png" alt=""/>
+            <img src="/images/twitter.png" alt=""/>
+        </div>
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="glyphicon glyphicon-align-justify"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/about.html" class="">ABOUT</a></li>
+                    <li><a href="/impact.html" class="">IMPACT</a></li>
+                    <li><a href="/stories.html" class="">STORIES</a></li>
+                    <li><a href="/takeaction.html" class="">TAKE ACTION</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</header>
+<div class="content">
+    index page
+</div>
 <footer>
+    <div class="row">
+        <div class="col-sm-3 subcribe">
+            SUBCRIBE NOW
+            <div class="input-group">
+
+                <input type="text" class="form-control" placeholder="Enter email address here" aria-describedby="basic-addon1">
+                <span class="input-group-addon" id="basic-addon1"> > </span>
+            </div>
+
+
+        </div>
+        <div class="desktop">
+            <div class="col-sm-6 middle">Action Against Hunger | ACF-USA is a recognized 501(c)(3) not-for-profit organization by the IRS.
+                © 2013 Action Against Hunger | ACF-USA
+                Contact | Privacy Policy | Tenders |Financials</div>
+            <div class="col-sm-3 back_top"><div class="image"></div>BACK TO TOP</div>
+        </div>
+        <div class="mobile">
+            <div class="col-sm-3 back_top"><div class="image"></div>BACK TO TOP</div>
+            <div class="col-sm-6 middle">Action Against Hunger | ACF-USA is a recognized 501(c)(3) not-for-profit organization by the IRS.
+                © 2013 Action Against Hunger | ACF-USA
+                Contact | Privacy Policy | Tenders |Financials</div>
+
+        </div>
+
+    </div>
 
 </footer>
+</body>
+<script>
+    $(document).ready(function(){
+        jQuery(function ($) {
+
+            $('button.navbar-toggle').on('click', function () {
+                var $el = $(this),
+                        textNode = this.lastChild;
+                $el.find('span').toggleClass('glyphicon-remove glyphicon-align-justify');
+            });
+        });
+        $(".back_top").click(function () {
+            $('html, body').animate({
+                scrollTop: $("header").offset().top
+            }, 500);
+        });
+    });
+
+</script>
 </html>

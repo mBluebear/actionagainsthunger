@@ -1,4 +1,52 @@
 /* Scss Document */
+@font-face {
+  font-family: 'latoitalic';
+  src: url("lato-regita-webfont.eot");
+  src: url("lato-regita-webfont.eot?#iefix") format("embedded-opentype"), url("lato-regita-webfont.woff2") format("woff2"), url("lato-regita-webfont.woff") format("woff"), url("lato-regita-webfont.ttf") format("truetype"), url("lato-regita-webfont.svg#latoitalic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'latohairline';
+  src: url("lato-hai-webfont.eot");
+  src: url("lato-hai-webfont.eot?#iefix") format("embedded-opentype"), url("lato-hai-webfont.woff2") format("woff2"), url("lato-hai-webfont.woff") format("woff"), url("lato-hai-webfont.ttf") format("truetype"), url("lato-hai-webfont.svg#latohairline") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'latoregular';
+  src: url("lato-reg-webfont.eot");
+  src: url("lato-reg-webfont.eot?#iefix") format("embedded-opentype"), url("lato-reg-webfont.woff2") format("woff2"), url("lato-reg-webfont.woff") format("woff"), url("lato-reg-webfont.ttf") format("truetype"), url("lato-reg-webfont.svg#latoregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'latolight_italic';
+  src: url("lato-ligita-webfont.eot");
+  src: url("lato-ligita-webfont.eot?#iefix") format("embedded-opentype"), url("lato-ligita-webfont.woff2") format("woff2"), url("lato-ligita-webfont.woff") format("woff"), url("lato-ligita-webfont.ttf") format("truetype"), url("lato-ligita-webfont.svg#latolight_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'latolight';
+  src: url("lato-lig-webfont.eot");
+  src: url("lato-lig-webfont.eot?#iefix") format("embedded-opentype"), url("lato-lig-webfont.woff2") format("woff2"), url("lato-lig-webfont.woff") format("woff"), url("lato-lig-webfont.ttf") format("truetype"), url("lato-lig-webfont.svg#latolight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'latohairline_italic';
+  src: url("lato-haiita-webfont.eot");
+  src: url("lato-haiita-webfont.eot?#iefix") format("embedded-opentype"), url("lato-haiita-webfont.woff2") format("woff2"), url("lato-haiita-webfont.woff") format("woff"), url("lato-haiita-webfont.ttf") format("truetype"), url("lato-haiita-webfont.svg#latohairline_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'latobold';
+  src: url("lato-bol-webfont.eot");
+  src: url("lato-bol-webfont.eot?#iefix") format("embedded-opentype"), url("lato-bol-webfont.woff2") format("woff2"), url("lato-bol-webfont.woff") format("woff"), url("lato-bol-webfont.ttf") format("truetype"), url("lato-bol-webfont.svg#latobold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'latoblack';
+  src: url("lato-bla-webfont.eot");
+  src: url("lato-bla-webfont.eot?#iefix") format("embedded-opentype"), url("lato-bla-webfont.woff2") format("woff2"), url("lato-bla-webfont.woff") format("woff"), url("lato-bla-webfont.ttf") format("truetype"), url("lato-bla-webfont.svg#latoblack") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 /* Scss Document */
 /* Scss Document */
 @-moz-viewport {
@@ -16,5 +64,144 @@
 @viewport {
   width: device-width;
   scale: 1; }
+.desktop {
+  display: block; }
+
+.mobile {
+  display: none; }
+
+header {
+  background: #232020;
+  color: white;
+  height: 106px; }
+  header .social_icon {
+    margin: 0 auto;
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 30px; }
+    header .social_icon img {
+      height: 30px; }
+  header .logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 135px; }
+  header nav.navbar.navbar-default {
+    background: none;
+    border: 0;
+    margin: 0 auto;
+    box-shadow: none; }
+    header nav.navbar.navbar-default button.navbar-toggle {
+      background: none;
+      border-radius: 0;
+      outline: none;
+      border: 0;
+      font-size: 20px;
+      position: absolute;
+      right: 0;
+      top: -6px; }
+    header nav.navbar.navbar-default .navbar-collapse, header nav.navbar.navbar-default .navbar-default .navbar-form {
+      background: none;
+      border: 0;
+      margin: 0 auto;
+      box-shadow: none; }
+    header nav.navbar.navbar-default .container-fluid {
+      background: #232020;
+      border: none;
+      border-radius: 0px;
+      outline: 0px;
+      box-shadow: none; }
+      header nav.navbar.navbar-default .container-fluid .navbar-nav li {
+        text-align: center; }
+        header nav.navbar.navbar-default .container-fluid .navbar-nav li a {
+          font-family: 'latoregular';
+          font-size: 16px;
+          color: white; }
+          header nav.navbar.navbar-default .container-fluid .navbar-nav li a.current {
+            text-decoration: none;
+            border-bottom: 2px solid #fff;
+            padding-bottom: 0;
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: 15px;
+            margin-right: 15px; }
+        header nav.navbar.navbar-default .container-fluid .navbar-nav li:hover {
+          background: #58595b;
+          border: none; }
+
+body {
+  background: #232020;
+  color: #231f20; }
+
+div.content {
+  min-height: 500px; }
+
+footer {
+  background: #414143;
+  min-height: 118px;
+  color: white;
+  text-align: center; }
+  footer div.row {
+    padding-top: 24px; }
+    footer div.row div {
+      padding: 13px; }
+    footer div.row div.back_top {
+      position: relative;
+      text-align: center;
+      padding-top: 45px;
+      font-family: 'latoregular';
+      font-size: 10px; }
+      footer div.row div.back_top div.image {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: -10px;
+        background: white url("../images/back_top.png") no-repeat;
+        background-position: center center;
+        border-radius: 50px;
+        border: 1px solid rgba(65, 65, 67, 0.26); }
+    footer div.row .middle {
+      font-family: 'latoregular';
+      font-size: 10px; }
+    footer div.row .subcribe {
+      font-family: 'latoregular';
+      font-size: 14px; }
+    footer div.row .form-control {
+      border-radius: 0; }
+    footer div.row span#basic-addon1 {
+      background: #808285;
+      color: white;
+      border-radius: 0; }
+
+@media (max-width: 767px) {
+  .desktop {
+    display: none; }
+
+  .mobile {
+    display: block; }
+
+  header .logo {
+    width: 90px;
+    top: 23px; }
+  header .social_icon {
+    margin-right: 69px; }
+  header nav.navbar.navbar-default .container-fluid .navbar-nav li {
+    background: #414142;
+    border-bottom: 1px solid black; }
+    header nav.navbar.navbar-default .container-fluid .navbar-nav li a.current {
+      background: #58595b;
+      border: none;
+      text-decoration: none;
+      margin: auto;
+      padding-bottom: 10px;
+      line-height: 20px; }
+  header nav.navbar.navbar-default div#bs-example-navbar-collapse-1 {
+    margin-top: 50px; }
+
+  footer div.row div.back_top {
+    margin-top: 19px; } }
 
 /*# sourceMappingURL=style.css.map */
