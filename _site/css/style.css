@@ -406,6 +406,27 @@ div.content {
     text-align: center; }
     div.content .take_action_page .action_take img {
       padding: 25px; }
+  div.content .impact_page .action_take {
+    margin: 0 auto;
+    text-align: center; }
+    div.content .impact_page .action_take img {
+      padding: 25px; }
+      div.content .impact_page .action_take img.nutrition:hover {
+        content: url("../images/impact/nutrition_hover.jpg");
+        width: 509px;
+        height: 435px; }
+      div.content .impact_page .action_take img.food:hover {
+        content: url("../images/impact/food_hover.jpg");
+        width: 509px;
+        height: 435px; }
+      div.content .impact_page .action_take img.water:hover {
+        content: url("../images/impact/water_hover.jpg");
+        width: 509px;
+        height: 435px; }
+      div.content .impact_page .action_take img.emergency:hover {
+        content: url("../images/impact/emergency_hover.jpg");
+        width: 509px;
+        height: 435px; }
   div.content .header {
     margin: 0 auto;
     position: relative; }
@@ -436,7 +457,7 @@ div.content {
       height: 525px;
       background-position: center; }
     div.content .header.impact {
-      background: url("../images/about/about_header.jpg") no-repeat;
+      background: url("../images/impact/impact.jpg") no-repeat;
       width: 100%;
       height: 520px;
       background-position: center; }
