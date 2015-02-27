@@ -176,11 +176,286 @@ div.content
   min-height: 500px;
   width: 1024px;
   margin:0 auto;
+  .about_page
+  {
+    .unique {
+      height: 438px;
+      padding: 25px;
+      width: 560px;
+      margin: 0 auto;
+      position: relative;
+      h2
+      {
+        font-family: latoblack;
+        font-size: 47px;
+        color: #231f20;
+        text-align: center;
+        margin-top: 26px;
+        margin-left: -96px;
+      }
+      span
+      {
+        display: block;
+        width: 593px;
+        margin: 0 auto;
+        position: relative;
+        left: -55px;
+        font-size: 16px;
+        font-family: latoregular;
+        top: 4px;
+        ul
+        {
+          list-style: none;
+          margin-left: -29px;
+          margin-top: 11px;
+          line-height: 2.5;
+          li
+          {
+            b
+            {
+              font-family: latobold;
+            }
+            &:before {
+              content: "• ";
+              color: #f15b22;
+              font-size: 18px;
+            }
+          }
+        }
+        a
+        {
+          color:#f15b22;
+          font-family: latobold;
+        }
+      }
+      img.hand {
+        position: absolute;
+        right: -233px;
+        top: 106px;
+      }
+    }
+    .why_matters {
+      background: url("../images/about/about_background.png") no-repeat;
+      width: 100%;
+      height: 578px;
+      margin: 0 auto;
+      background-position: center;
+      text-align: center;
+      padding-top: 79px;
+      h2 {
+        color: white;
+        text-align: center;
+        font-size: 50px;
+        font-family: latoblack;
+        margin-bottom: 28px;
+      }
+      span
+      {
+        font-family: latothin;
+        font-size: 22px;
+        color:white;
+      }
+      .icon {
+        margin-top: 48px;
+      }
+      .help_us_button {
+        border: 3px solid white;
+        cursor: pointer;
+        width: 390px;
+        margin: 0 auto;
+        margin-top: 37px;
+        height: 73px;
+        padding-top: 18px;
+        color: white;
+        font-size: 25px;
+        font-family: latoregular;
+      }
+    }
+    .slider {
+      height: 520px;
+      .slide
+      {
+        strong {
+          color: #e57f12;
+          font-size: 24px;
+          font-weight: bold;
+          font-family: latoregular;
+          text-align: center;
+          display: block;
+          padding-top: 45px;
+        }
+        h2 {
+          text-align: center;
+          color: white;
+          font-size: 50px;
+          margin-top: 44px;
+          margin-left: 22px;
+          font-family: latoblack;
+        }
+        span
+        {
+          width: 500px;
+          display: block;
+          margin: 0 auto;
+          color: white;
+          font-size: 21px;
+          font-family: latothin;
+          margin-top: 31px;
+          text-align: center;
+        }
+        .learn_more_button {
+          display: block;
+          margin: 0 auto;
+          margin-top: -154px;
+          width: 343px;
+          text-align: center;
+          color: white;
+          border: 3px solid white;
+          cursor: pointer;
+          font-size: 25px;
+          font-family: latoregular;
+          position: relative;
+          left: 1px;
+          height: 73px;
+          padding-top: 16px;
+        }
+        &.number1
+        {
+          background: url('../images/about/slider1.jpg') no-repeat;
+          height: 521px;
+        }
+      }
+    }
+    .acf {
+      height: 468px;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 45px;
+      h2
+      {
+        color: black;
+        font-size: 49px;
+        font-family: latoblack;
+        text-transform: uppercase;
+        text-align: center;
+        margin-left: 23px;
+        margin-bottom: 20px;
+      }
+      span {
+        display: block;
+        width: 615px;
+        margin: 0 auto;
+        font-family: latoregular;
+        font-size: 16px;
+        b
+        {
+          color:#f15b22;
+          font-family: latobold;
+          font-size: 18px;
+
+        }
+      }
+    }
+    .humanitarian_expert {
+      background: #f68e56;
+      text-align: center;
+      padding: 23px;
+      h3
+      {
+        font-family: latoblack;
+        font-size: 48px;
+        color: white;
+        margin-bottom: 60px;
+      }
+      .expert_head {
+        width: 191px;
+        height: 191px;
+        display: inline-block;
+      }
+    }
+    .our_partners {
+      height: 500px;
+      text-align: center;
+      padding-top: 47px;
+
+      h2 {
+        font-family: latoblack;
+        color: #f15b22;
+        font-size: 50px;
+        margin-bottom: 16px;
+      }
+      span
+      {
+        display: block;
+        width: 630px;
+        margin: 0 auto;
+        font-size: 16px;
+        font-family: latoregular;
+      }
+      .partner_logo {
+        margin-top: 44px;
+      }
+      .learn_more_button {
+        width: 341px;
+        height: 73px;
+        margin: 0 auto;
+        border: 3px solid #f15b22;
+        cursor: pointer;
+        margin-top: 60px;
+        color: #f15b22;
+        font-size: 25px;
+        font-family: latoregular;
+        padding-top: 16px;
+      }
+    }
+    .video
+    {
+      height: 520px;
+      text-align: center;
+      position: relative;
+      .play {
+        width: 100%;
+        height: 520px;
+        background: url('../images/about/video_play.png') no-repeat;
+        background-position: center;
+        margin: 0 auto;
+        text-align: left;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        .title {
+          color: white;
+          font-size: 34px;
+          font-family: latothin;
+          margin-top: 380px;
+        }
+        .title_head
+        {
+          font-family: latoblack;
+          font-size: 40px;
+          color:white;
+        }
+      }
+    }
+  }
+  .take_action_page
+  {
+    .take_action_mid
+    {
+      text-align: center;
+    }
+    .action_take {
+      margin: 0 auto;
+      text-align: center;
+      img
+      {
+        padding:25px;
+      }
+    }
+  }
   .header {
-    background: url('../images/about/about_header.jpg') no-repeat;
-    width: 100%;
-    height: 520px;
-    background-position: center;
+
     margin:0 auto;
     position: relative;
     .content_header {
@@ -202,267 +477,34 @@ div.content
         line-height: 1.35;
       }
     }
-  }
-  .unique {
-    height: 438px;
-    padding: 25px;
-    width: 560px;
-    margin: 0 auto;
-    position: relative;
-    h2
+    &.about
     {
-      font-family: latoblack;
-      font-size: 47px;
-      color: #231f20;
-      text-align: center;
-      margin-top: 26px;
-      margin-left: -96px;
-    }
-    span
-    {
-      display: block;
-      width: 593px;
-      margin: 0 auto;
-      position: relative;
-      left: -55px;
-      font-size: 16px;
-      font-family: latoregular;
-      top: 4px;
-      ul
-      {
-        list-style: none;
-        margin-left: -29px;
-        margin-top: 11px;
-        line-height: 2.5;
-        li
-        {
-          b
-          {
-            font-family: latobold;
-          }
-          &:before {
-            content: "• ";
-            color: #f15b22;
-            font-size: 18px;
-          }
-        }
-      }
-      a
-      {
-        color:#f15b22;
-        font-family: latobold;
-      }
-    }
-    img.hand {
-      position: absolute;
-      right: -233px;
-      top: 106px;
-    }
-  }
-  .why_matters {
-    background: url("../images/about/about_background.png") no-repeat;
-    width: 100%;
-    height: 578px;
-    margin: 0 auto;
-    background-position: center;
-    text-align: center;
-    padding-top: 79px;
-    h2 {
-      color: white;
-      text-align: center;
-      font-size: 50px;
-      font-family: latoblack;
-      margin-bottom: 28px;
-    }
-    span
-    {
-      font-family: latothin;
-      font-size: 22px;
-      color:white;
-    }
-    .icon {
-      margin-top: 48px;
-    }
-    .help_us_button {
-      border: 3px solid white;
-      cursor: pointer;
-      width: 390px;
-      margin: 0 auto;
-      margin-top: 37px;
-      height: 73px;
-      padding-top: 18px;
-      color: white;
-      font-size: 25px;
-      font-family: latoregular;
-    }
-  }
-  .slider {
-     height: 520px;
-    .slide
-    {
-      strong {
-        color: #e57f12;
-        font-size: 24px;
-        font-weight: bold;
-        font-family: latoregular;
-        text-align: center;
-        display: block;
-        padding-top: 45px;
-      }
-      h2 {
-        text-align: center;
-        color: white;
-        font-size: 50px;
-        margin-top: 44px;
-        margin-left: 22px;
-        font-family: latoblack;
-      }
-      span
-      {
-        width: 500px;
-        display: block;
-        margin: 0 auto;
-        color: white;
-        font-size: 21px;
-        font-family: latothin;
-        margin-top: 31px;
-        text-align: center;
-      }
-      .learn_more_button {
-        display: block;
-        margin: 0 auto;
-        margin-top: -154px;
-        width: 343px;
-        text-align: center;
-        color: white;
-        border: 3px solid white;
-        cursor: pointer;
-        font-size: 25px;
-        font-family: latoregular;
-        position: relative;
-        left: 1px;
-        height: 73px;
-        padding-top: 16px;
-      }
-      &.number1
-      {
-        background: url('../images/about/slider1.jpg') no-repeat;
-        height: 521px;
-      }
-    }
-   }
-  .acf {
-    height: 468px;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 45px;
-    h2
-    {
-      color: black;
-      font-size: 49px;
-      font-family: latoblack;
-      text-transform: uppercase;
-      text-align: center;
-      margin-left: 23px;
-      margin-bottom: 20px;
-    }
-    span {
-      display: block;
-      width: 615px;
-      margin: 0 auto;
-      font-family: latoregular;
-      font-size: 16px;
-      b
-      {
-        color:#f15b22;
-        font-family: latobold;
-        font-size: 18px;
-
-      }
-    }
-  }
-  .humanitarian_expert {
-    background: #f68e56;
-    text-align: center;
-    padding: 23px;
-    h3
-    {
-      font-family: latoblack;
-      font-size: 48px;
-      color: white;
-      margin-bottom: 60px;
-    }
-    .expert_head {
-      width: 191px;
-      height: 191px;
-      display: inline-block;
-    }
-  }
-  .our_partners {
-    height: 500px;
-    text-align: center;
-    padding-top: 47px;
-
-    h2 {
-      font-family: latoblack;
-      color: #f15b22;
-      font-size: 50px;
-      margin-bottom: 16px;
-    }
-    span
-    {
-      display: block;
-      width: 630px;
-      margin: 0 auto;
-      font-size: 16px;
-      font-family: latoregular;
-    }
-    .partner_logo {
-      margin-top: 44px;
-    }
-    .learn_more_button {
-      width: 341px;
-      height: 73px;
-      margin: 0 auto;
-      border: 3px solid #f15b22;
-      cursor: pointer;
-      margin-top: 60px;
-      color: #f15b22;
-      font-size: 25px;
-      font-family: latoregular;
-      padding-top: 16px;
-    }
-  }
-  .video
-  {
-    height: 520px;
-    text-align: center;
-    position: relative;
-    .play {
+      background: url('../images/about/about_header.jpg') no-repeat;
       width: 100%;
       height: 520px;
-      background: url('../images/about/video_play.png') no-repeat;
       background-position: center;
-      margin: 0 auto;
-      text-align: left;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      .title {
-        color: white;
-        font-size: 34px;
-        font-family: latothin;
-        margin-top: 380px;
-      }
-      .title_head
-      {
-        font-family: latoblack;
-        font-size: 40px;
-        color:white;
-      }
+    }
+
+    &.take_action
+    {
+      background: url('../images/take_action/take_action_header.jpg') no-repeat;
+      width: 100%;
+      height: 525px;
+      background-position: center;
+
+    }
+
+    &.impact
+    {
+      background: url('../images/about/about_header.jpg') no-repeat;
+      width: 100%;
+      height: 520px;
+      background-position: center;
     }
   }
+
+
+
 }
 footer
 {
