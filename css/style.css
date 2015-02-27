@@ -1,50 +1,57 @@
+@charset "UTF-8";
 /* Scss Document */
 @font-face {
+  font-family: 'latothin';
+  src: url("../font/Lato-Thin-webfont.eot");
+  src: url("../font/Lato-Thin-webfont.eot?#iefix") format("embedded-opentype"), url("../font/Lato-Thin-webfont.woff2") format("woff2"), url("../font/Lato-Thin-webfont.woff") format("woff"), url("../font/Lato-Thin-webfont.ttf") format("truetype"), url("../font/Lato-Thin-webfont.svg#latothin") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
   font-family: 'latoitalic';
-  src: url("lato-regita-webfont.eot");
-  src: url("lato-regita-webfont.eot?#iefix") format("embedded-opentype"), url("lato-regita-webfont.woff2") format("woff2"), url("lato-regita-webfont.woff") format("woff"), url("lato-regita-webfont.ttf") format("truetype"), url("lato-regita-webfont.svg#latoitalic") format("svg");
+  src: url("../font/lato-regita-webfont.eot");
+  src: url("../font/lato-regita-webfont.eot?#iefix") format("embedded-opentype"), url("../font/lato-regita-webfont.woff2") format("woff2"), url("../font/lato-regita-webfont.woff") format("woff"), url("../font/lato-regita-webfont.ttf") format("truetype"), url("../font/lato-regita-webfont.svg#latoitalic") format("svg");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'latohairline';
-  src: url("lato-hai-webfont.eot");
-  src: url("lato-hai-webfont.eot?#iefix") format("embedded-opentype"), url("lato-hai-webfont.woff2") format("woff2"), url("lato-hai-webfont.woff") format("woff"), url("lato-hai-webfont.ttf") format("truetype"), url("lato-hai-webfont.svg#latohairline") format("svg");
+  src: url("../font/lato-hai-webfont.eot");
+  src: url("../font/lato-hai-webfont.eot?#iefix") format("embedded-opentype"), url("../font/lato-hai-webfont.woff2") format("woff2"), url("../font/lato-hai-webfont.woff") format("woff"), url("../font/lato-hai-webfont.ttf") format("truetype"), url("../font/lato-hai-webfont.svg#latohairline") format("svg");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'latoregular';
-  src: url("lato-reg-webfont.eot");
-  src: url("lato-reg-webfont.eot?#iefix") format("embedded-opentype"), url("lato-reg-webfont.woff2") format("woff2"), url("lato-reg-webfont.woff") format("woff"), url("lato-reg-webfont.ttf") format("truetype"), url("lato-reg-webfont.svg#latoregular") format("svg");
+  src: url("../font/lato-reg-webfont.eot");
+  src: url("../font/lato-reg-webfont.eot?#iefix") format("embedded-opentype"), url("../font/lato-reg-webfont.woff2") format("woff2"), url("../font/lato-reg-webfont.woff") format("woff"), url("../font/lato-reg-webfont.ttf") format("truetype"), url("../font/lato-reg-webfont.svg#latoregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'latolight_italic';
-  src: url("lato-ligita-webfont.eot");
-  src: url("lato-ligita-webfont.eot?#iefix") format("embedded-opentype"), url("lato-ligita-webfont.woff2") format("woff2"), url("lato-ligita-webfont.woff") format("woff"), url("lato-ligita-webfont.ttf") format("truetype"), url("lato-ligita-webfont.svg#latolight_italic") format("svg");
+  src: url("../font/lato-ligita-webfont.eot");
+  src: url("../font/lato-ligita-webfont.eot?#iefix") format("embedded-opentype"), url("../font/lato-ligita-webfont.woff2") format("woff2"), url("../font/lato-ligita-webfont.woff") format("woff"), url("../font/lato-ligita-webfont.ttf") format("truetype"), url("../font/lato-ligita-webfont.svg#latolight_italic") format("svg");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'latolight';
-  src: url("lato-lig-webfont.eot");
-  src: url("lato-lig-webfont.eot?#iefix") format("embedded-opentype"), url("lato-lig-webfont.woff2") format("woff2"), url("lato-lig-webfont.woff") format("woff"), url("lato-lig-webfont.ttf") format("truetype"), url("lato-lig-webfont.svg#latolight") format("svg");
+  src: url("../font/lato-lig-webfont.eot");
+  src: url("../font/lato-lig-webfont.eot?#iefix") format("embedded-opentype"), url("../font/lato-lig-webfont.woff2") format("woff2"), url("../font/lato-lig-webfont.woff") format("woff"), url("../font/lato-lig-webfont.ttf") format("truetype"), url("../font/lato-lig-webfont.svg#latolight") format("svg");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'latohairline_italic';
-  src: url("lato-haiita-webfont.eot");
-  src: url("lato-haiita-webfont.eot?#iefix") format("embedded-opentype"), url("lato-haiita-webfont.woff2") format("woff2"), url("lato-haiita-webfont.woff") format("woff"), url("lato-haiita-webfont.ttf") format("truetype"), url("lato-haiita-webfont.svg#latohairline_italic") format("svg");
+  src: url("../font/lato-haiita-webfont.eot");
+  src: url("../font/lato-haiita-webfont.eot?#iefix") format("embedded-opentype"), url("../font/lato-haiita-webfont.woff2") format("woff2"), url("../font/lato-haiita-webfont.woff") format("woff"), url("../font/lato-haiita-webfont.ttf") format("truetype"), url("../font/lato-haiita-webfont.svg#latohairline_italic") format("svg");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'latobold';
-  src: url("lato-bol-webfont.eot");
-  src: url("lato-bol-webfont.eot?#iefix") format("embedded-opentype"), url("lato-bol-webfont.woff2") format("woff2"), url("lato-bol-webfont.woff") format("woff"), url("lato-bol-webfont.ttf") format("truetype"), url("lato-bol-webfont.svg#latobold") format("svg");
+  src: url("../font/lato-bol-webfont.eot");
+  src: url("../font/lato-bol-webfont.eot?#iefix") format("embedded-opentype"), url("../font/lato-bol-webfont.woff2") format("woff2"), url("../font/lato-bol-webfont.woff") format("woff"), url("../font/lato-bol-webfont.ttf") format("truetype"), url("../font/lato-bol-webfont.svg#latobold") format("svg");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'latoblack';
-  src: url("lato-bla-webfont.eot");
-  src: url("lato-bla-webfont.eot?#iefix") format("embedded-opentype"), url("lato-bla-webfont.woff2") format("woff2"), url("lato-bla-webfont.woff") format("woff"), url("lato-bla-webfont.ttf") format("truetype"), url("lato-bla-webfont.svg#latoblack") format("svg");
+  src: url("../font/lato-bla-webfont.eot");
+  src: url("../font/lato-bla-webfont.eot?#iefix") format("embedded-opentype"), url("../font/lato-bla-webfont.woff2") format("woff2"), url("../font/lato-bla-webfont.woff") format("woff"), url("../font/lato-bla-webfont.ttf") format("truetype"), url("../font/lato-bla-webfont.svg#latoblack") format("svg");
   font-weight: normal;
   font-style: normal; }
 /* Scss Document */
@@ -71,14 +78,60 @@
   display: none; }
 
 header {
-  background: #232020;
+  background: transparent;
   color: white;
-  height: 106px; }
+  height: 106px;
+  width: 1024px;
+  position: fixed;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  z-index: 9999; }
   header .social_icon {
     margin: 0 auto;
     text-align: right;
     margin-top: 10px;
     margin-right: 30px; }
+    header .social_icon .search-container {
+      overflow: hidden;
+      float: right;
+      border-radius: 2em;
+      -moz-transition: all 0.35s;
+      -webkit-transition: all 0.35s; }
+      header .social_icon .search-container input {
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        float: left;
+        width: 0em;
+        height: 2em;
+        margin-right: -4.5em;
+        background: #fff;
+        color: #6A5D4F;
+        font-size: 1em;
+        font-weight: 600;
+        padding: 0px;
+        border: 0;
+        border-radius: 70px;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2) inset;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+        -moz-transition: all 0.25s;
+        -webkit-transition: all 0.25s; }
+        header .social_icon .search-container input:focus {
+          outline: none;
+          box-shadow: 0 -1px 1px rgba(255, 255, 255, 0.25), 0 1px 5px rgba(0, 0, 0, 0.15); }
+      header .social_icon .search-container:hover {
+        width: 18em;
+        border-radius: 5px 2em 2em 5px; }
+        header .social_icon .search-container:hover input {
+          display: inline-block;
+          width: 15em;
+          padding: 10px; }
+      header .social_icon .search-container .button:active {
+        border: 0 !important;
+        text-shadow: 0 0 0; }
+    header .social_icon .icons {
+      float: right; }
     header .social_icon img {
       height: 30px; }
   header .logo {
@@ -91,6 +144,10 @@ header {
     border: 0;
     margin: 0 auto;
     box-shadow: none; }
+    header nav.navbar.navbar-default.scroll {
+      background: #10bcff;
+      opacity: 0.9;
+      border-radius: 0; }
     header nav.navbar.navbar-default button.navbar-toggle {
       background: none;
       border-radius: 0;
@@ -106,75 +163,303 @@ header {
       margin: 0 auto;
       box-shadow: none; }
     header nav.navbar.navbar-default .container-fluid {
-      background: #232020;
+      background: transparent;
       border: none;
       border-radius: 0px;
       outline: 0px;
       box-shadow: none; }
-      header nav.navbar.navbar-default .container-fluid .navbar-nav li {
-        text-align: center; }
-        header nav.navbar.navbar-default .container-fluid .navbar-nav li a {
-          font-family: 'latoregular';
-          font-size: 16px;
-          color: white; }
-          header nav.navbar.navbar-default .container-fluid .navbar-nav li a.current {
-            text-decoration: none;
-            border-bottom: 2px solid #fff;
-            padding-bottom: 0;
-            padding-left: 0;
-            padding-right: 0;
-            margin-left: 15px;
-            margin-right: 15px; }
-        header nav.navbar.navbar-default .container-fluid .navbar-nav li:hover {
-          background: #58595b;
-          border: none; }
+      header nav.navbar.navbar-default .container-fluid .navbar-nav {
+        clear: both; }
+        header nav.navbar.navbar-default .container-fluid .navbar-nav li {
+          text-align: center; }
+          header nav.navbar.navbar-default .container-fluid .navbar-nav li a {
+            font-family: 'latoregular';
+            font-size: 16px;
+            color: white; }
+            header nav.navbar.navbar-default .container-fluid .navbar-nav li a.current {
+              text-decoration: none;
+              border-bottom: 2px solid #fff;
+              padding-bottom: 0;
+              padding-left: 0;
+              padding-right: 0;
+              margin-left: 15px;
+              margin-right: 15px; }
+          header nav.navbar.navbar-default .container-fluid .navbar-nav li:hover {
+            background: #58595b;
+            border: none; }
 
 body {
   background: #232020;
   color: #231f20; }
 
 div.content {
-  min-height: 500px; }
+  min-height: 500px;
+  width: 1024px;
+  margin: 0 auto; }
+  div.content .header {
+    background: url("../images/about/about_header.jpg") no-repeat;
+    width: 100%;
+    height: 520px;
+    background-position: center;
+    margin: 0 auto;
+    position: relative; }
+    div.content .header .content_header {
+      width: 670px;
+      padding: 32px;
+      position: absolute;
+      bottom: 0px; }
+      div.content .header .content_header h1 {
+        font-size: 80px;
+        color: white;
+        font-family: latoblack;
+        padding-left: 3px;
+        line-height: 1; }
+      div.content .header .content_header span {
+        color: white;
+        font-size: 22px;
+        font-family: latothin;
+        line-height: 1.35; }
+  div.content .unique {
+    height: 438px;
+    padding: 25px;
+    width: 560px;
+    margin: 0 auto;
+    position: relative; }
+    div.content .unique h2 {
+      font-family: latoblack;
+      font-size: 47px;
+      color: #231f20;
+      text-align: center;
+      margin-top: 26px;
+      margin-left: -96px; }
+    div.content .unique span {
+      display: block;
+      width: 593px;
+      margin: 0 auto;
+      position: relative;
+      left: -55px;
+      font-size: 16px;
+      font-family: latoregular;
+      top: 4px; }
+      div.content .unique span ul {
+        list-style: none;
+        margin-left: -29px;
+        margin-top: 11px;
+        line-height: 2.5; }
+        div.content .unique span ul li b {
+          font-family: latobold; }
+        div.content .unique span ul li:before {
+          content: "• ";
+          color: #f15b22;
+          font-size: 18px; }
+      div.content .unique span a {
+        color: #f15b22;
+        font-family: latobold; }
+    div.content .unique img.hand {
+      position: absolute;
+      right: -233px;
+      top: 106px; }
+  div.content .why_matters {
+    background: url("../images/about/about_background.png") no-repeat;
+    width: 100%;
+    height: 578px;
+    margin: 0 auto;
+    background-position: center;
+    text-align: center;
+    padding-top: 79px; }
+    div.content .why_matters h2 {
+      color: white;
+      text-align: center;
+      font-size: 50px;
+      font-family: latoblack;
+      margin-bottom: 28px; }
+    div.content .why_matters span {
+      font-family: latothin;
+      font-size: 22px;
+      color: white; }
+    div.content .why_matters .icon {
+      margin-top: 48px; }
+    div.content .why_matters .help_us_button {
+      border: 3px solid white;
+      cursor: pointer;
+      width: 390px;
+      margin: 0 auto;
+      margin-top: 37px;
+      height: 73px;
+      padding-top: 18px;
+      color: white;
+      font-size: 25px;
+      font-family: latoregular; }
+  div.content .slider {
+    height: 520px; }
+    div.content .slider .slide strong {
+      color: #e57f12;
+      font-size: 24px;
+      font-weight: bold;
+      font-family: latoregular;
+      text-align: center;
+      display: block;
+      padding-top: 45px; }
+    div.content .slider .slide h2 {
+      text-align: center;
+      color: white;
+      font-size: 50px;
+      margin-top: 44px;
+      margin-left: 22px;
+      font-family: latoblack; }
+    div.content .slider .slide span {
+      width: 500px;
+      display: block;
+      margin: 0 auto;
+      color: white;
+      font-size: 21px;
+      font-family: latothin;
+      margin-top: 31px;
+      text-align: center; }
+    div.content .slider .slide .learn_more_button {
+      display: block;
+      margin: 0 auto;
+      margin-top: -154px;
+      width: 343px;
+      text-align: center;
+      color: white;
+      border: 3px solid white;
+      cursor: pointer;
+      font-size: 25px;
+      font-family: latoregular;
+      position: relative;
+      left: 1px;
+      height: 73px;
+      padding-top: 16px; }
+    div.content .slider .slide.number1 {
+      background: url("../images/about/slider1.jpg") no-repeat;
+      height: 521px; }
+  div.content .acf {
+    height: 468px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 45px; }
+    div.content .acf h2 {
+      color: black;
+      font-size: 49px;
+      font-family: latoblack;
+      text-transform: uppercase;
+      text-align: center;
+      margin-left: 23px;
+      margin-bottom: 20px; }
+    div.content .acf span {
+      display: block;
+      width: 615px;
+      margin: 0 auto;
+      font-family: latoregular;
+      font-size: 16px; }
+      div.content .acf span b {
+        color: #f15b22;
+        font-family: latobold;
+        font-size: 18px; }
+  div.content .humanitarian_expert {
+    background: #f68e56;
+    text-align: center;
+    padding: 23px; }
+    div.content .humanitarian_expert h3 {
+      font-family: latoblack;
+      font-size: 48px;
+      color: white;
+      margin-bottom: 60px; }
+    div.content .humanitarian_expert .expert_head {
+      width: 191px;
+      height: 191px;
+      display: inline-block; }
+  div.content .our_partners {
+    height: 500px;
+    text-align: center;
+    padding-top: 47px; }
+    div.content .our_partners h2 {
+      font-family: latoblack;
+      color: #f15b22;
+      font-size: 50px;
+      margin-bottom: 16px; }
+    div.content .our_partners span {
+      display: block;
+      width: 630px;
+      margin: 0 auto;
+      font-size: 16px;
+      font-family: latoregular; }
+    div.content .our_partners .partner_logo {
+      margin-top: 44px; }
+    div.content .our_partners .learn_more_button {
+      width: 341px;
+      height: 73px;
+      margin: 0 auto;
+      border: 3px solid #f15b22;
+      cursor: pointer;
+      margin-top: 60px;
+      color: #f15b22;
+      font-size: 25px;
+      font-family: latoregular;
+      padding-top: 16px; }
+  div.content .video {
+    height: 520px;
+    text-align: center;
+    position: relative; }
+    div.content .video .play {
+      width: 100%;
+      height: 520px;
+      background: url("../images/about/video_play.png") no-repeat;
+      background-position: center;
+      margin: 0 auto;
+      text-align: left;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0; }
+      div.content .video .play .title {
+        color: white;
+        font-size: 34px;
+        font-family: latothin;
+        margin-top: 380px; }
+      div.content .video .play .title_head {
+        font-family: latoblack;
+        font-size: 40px;
+        color: white; }
 
 footer {
-  background: #414143;
+  background: black;
   min-height: 118px;
   color: white;
-  text-align: center; }
+  text-align: center;
+  width: 1024px;
+  margin: 0 auto;
+  height: 150px; }
   footer div.row {
     padding-top: 24px; }
     footer div.row div {
       padding: 13px; }
     footer div.row div.back_top {
-      position: relative;
-      text-align: center;
-      padding-top: 45px;
-      font-family: 'latoregular';
-      font-size: 10px; }
-      footer div.row div.back_top div.image {
-        width: 40px;
-        height: 40px;
-        position: absolute;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-        top: -10px;
-        background: white url("../images/back_top.png") no-repeat;
-        background-position: center center;
-        border-radius: 50px;
-        border: 1px solid rgba(65, 65, 67, 0.26); }
+      background: url("../images/about/back_top.png") no-repeat;
+      width: 107px;
+      height: 105px;
+      right: 15px;
+      bottom: 15px;
+      float: right;
+      margin: 0 auto; }
     footer div.row .middle {
       font-family: 'latoregular';
       font-size: 10px; }
-    footer div.row .subcribe {
+    footer div.row .subcribe h3 {
       font-family: 'latoregular';
-      font-size: 14px; }
-    footer div.row .form-control {
-      border-radius: 0; }
+      font-size: 12px;
+      margin-left: -90px; }
+    footer div.row .input-group {
+      margin-left: 14px; }
+      footer div.row .input-group input.form-control {
+        height: 38px;
+        border-radius: 0; }
     footer div.row span#basic-addon1 {
-      background: #808285;
-      color: white;
-      border-radius: 0; }
+      background: transparent;
+      color: #f15b22;
+      border-radius: 0;
+      border: 3px solid #f15b22; }
 
 @media (max-width: 767px) {
   .desktop {
