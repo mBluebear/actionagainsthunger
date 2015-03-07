@@ -37,7 +37,7 @@ header {
   background: transparent;
   color: white;
   height: 106px;
-  width: 1024px;
+  width: 100%;
   position: fixed;
   margin: 0 auto;
   left: 0;
@@ -180,7 +180,7 @@ body {
 
 div.content {
   min-height: 500px;
-  width: 1024px;
+  width: 100%;
   margin: 0 auto;
   .home_page
   {
@@ -322,9 +322,10 @@ div.content {
       width: 100%;
       height: 578px;
       margin: 0 auto;
-      background-position: center;
+      background-position: top center;
       text-align: center;
       padding-top: 79px;
+      background-size: cover;
       h2 {
         color: white;
         text-align: center;
@@ -339,6 +340,16 @@ div.content {
       }
       .icon {
         margin-top: 48px;
+        font-size: 21px;
+        color: white;
+        font-family: 'latobold';
+        div
+        {
+          display: inline-block;
+        }
+        i {
+          font-size: 90px;
+        }
       }
       .help_us_button {
         border: 3px solid white;
@@ -358,6 +369,8 @@ div.content {
       }
     }
     .slider {
+      margin:0 auto;
+      text-align: center;
       height: 520px;
       .slide {
         strong {
@@ -389,6 +402,7 @@ div.content {
         }
         &.number1 {
           background: url('../images/about/slider1.jpg') no-repeat;
+          background-size: cover;
           height: 521px;
         }
 
@@ -526,6 +540,10 @@ div.content {
     }
   }
   .take_action_page {
+    .slider
+    {
+      text-align: center;
+    }
     .take_action_mid {
       text-align: center;
     }
@@ -542,6 +560,7 @@ div.content {
 
     .action_menu {
 
+        text-align: center;
       div.menu_action {
         display: inline-block;
         width: 255px;
@@ -632,6 +651,10 @@ div.content {
     }
   }
   .impact_page {
+    .take_action_mid {
+      margin: 0 auto;
+      text-align: center;
+    }
     .action_take {
       background: rgba(172, 246, 255, 0.21);
       margin: 0 auto;
@@ -639,6 +662,11 @@ div.content {
       padding-top: 60px;
       padding-bottom: 52px;
 
+      div i
+      {
+        font-size: 174px;
+        color:white;
+      }
       div img {
         position: absolute;
         left: 0;
@@ -748,12 +776,14 @@ div.content {
       width: 100%;
       height: 520px;
       background-position: center;
+      background-size: cover;
     }
     &.home {
       background: url('../images/home_header.jpg') no-repeat;
       width: 100%;
       height: 520px;
       background-position: center;
+      background-size: cover;
       div.content_header
       {
         h1
@@ -767,7 +797,8 @@ div.content {
       background: url('../images/take_action/take_action_header.jpg') no-repeat;
       width: 100%;
       height: 525px;
-      background-position: center;
+      background-position: top;
+      background-size: cover;
 
     }
 
@@ -775,14 +806,16 @@ div.content {
       background: url('../images/impact/impact.jpg') no-repeat;
       width: 100%;
       height: 520px;
-      background-position: center;
+      background-position: top;
+      background-size: cover;
     }
 
     &.stories {
       background: url('../images/stories/stories.jpg') no-repeat;
       width: 100%;
       height: 520px;
-      background-position: center;
+      background-position: top;
+      background-size: cover;
 
     }
   }
@@ -794,7 +827,7 @@ footer {
   min-height: 118px;
   color: white;
   text-align: center;
-  width: 1024px;
+  width: 100%;
   margin: 0 auto;
   height: 150px;
   div.row {
