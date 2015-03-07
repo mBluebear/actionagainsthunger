@@ -699,6 +699,110 @@ div.content {
         background: #38cedc;
         min-height: 100px;
         height: 704px;
+        color:white;
+        text-align: center;
+        p
+        {
+          text-align: left;
+        }
+        .amount_button {
+          width: 142px;
+          height: 73px;
+          display: inline-block;
+          border: 3px solid white;
+          color: white;
+          font-family: 'latoregular';
+          font-size: 25px;
+          text-align: CENTER;
+          padding-top: 15px;
+          margin: 10px;
+          cursor: pointer;
+          &:hover
+          {
+            background: white;
+            color:#059fcc;
+          }
+        }
+        img
+        {
+          text-align: center;
+          display: block;
+          margin:0 auto;
+        }
+        font-family: 'latoregular';
+        font-size: 16px;
+        h3 {
+          font-family: 'latoheavy';
+          font-size: 32px;
+        }
+
+        h4 {
+          font-family: 'latobold';
+          font-size: 22px;
+        }
+        .sent_button {
+          display: block;
+          margin: 0 auto;
+          width: 284px;
+          text-align: center;
+          color: white;
+          border: 3px solid white;
+          cursor: pointer;
+          font-size: 25px;
+          font-family: latoregular;
+          height: 73px;
+          padding-top: 16px;
+          margin-bottom: 10px;
+          &:hover {
+            background: white;
+            color: #059fcc;
+          }
+        }
+        .donation_form
+        {
+          height: 55px;
+          margin-top: 18px;
+          margin-bottom: 50px;
+          .input {
+            border: 3px solid #059fcc;
+            width: 155px;
+            height: 55px;
+            display: inline-block;
+            position: relative;
+            text-align: right;
+            background: white;
+            div.dollar
+            {
+              position: absolute;
+              left: 4px;
+              top: 11px;
+              color:#059fcc;
+              font-family: 'latolight';
+              font-size: 22px;
+            }
+
+            input {
+              width: 80%;
+              border: 0px;
+              height: 49px;
+              position: absolute;
+              right: 0;
+            }
+          }
+          .donation_text {
+            display: inline;
+            position: relative;
+            top: -21px;
+          }
+          .select
+          {
+            display: inline;
+            position: relative;
+            top: -21px;
+            font-size: 22px;
+            font-family: 'latolight';
+          }
+        }
       }
       .buy_live
       {
@@ -706,7 +810,47 @@ div.content {
         background: #febb1c;
         min-height: 100px;
         height: 704px;
+        text-align: center;
+        img
+        {
+          display: block;
+          margin:0 auto;
 
+        }
+        .start_your_own
+        {
+          display: inline-block;
+          width: 422px;
+          height: 73px;
+          color:white;
+          border:3px solid white;
+          font-family: 'latoregular';
+          font-size: 25px;
+          padding-top:15px;
+          cursor: pointer;
+          &:hover
+          {
+            background: white;
+            color:#febb1c;
+          }
+        }
+        .donate_to_the_cause
+        {
+          display: inline-block;
+          width: 422px;
+          height: 73px;
+          color:white;
+          border:3px solid white;
+          font-family: 'latoregular';
+          font-size: 25px;
+          padding-top:15px;
+          cursor: pointer;
+          &:hover
+          {
+            background: white;
+            color:#febb1c;
+          }
+        }
       }
       .fundraise
       {
@@ -714,6 +858,47 @@ div.content {
         background: #f97c4b;
         min-height: 100px;
         height: 704px;
+        text-align: center;
+        img
+        {
+          display: block;
+          margin:0 auto;
+
+        }
+        .start_your_own
+        {
+          display: inline-block;
+          width: 422px;
+          height: 73px;
+          color:white;
+          border:3px solid white;
+          font-family: 'latoregular';
+          font-size: 25px;
+          padding-top:15px;
+          cursor: pointer;
+          &:hover
+          {
+            background: white;
+            color:#f97c4b;
+          }
+        }
+        .donate_to_the_cause
+        {
+          display: inline-block;
+          width: 422px;
+          height: 73px;
+          color:white;
+          border:3px solid white;
+          font-family: 'latoregular';
+          font-size: 25px;
+          padding-top:15px;
+          cursor: pointer;
+          &:hover
+          {
+            background: white;
+            color:#f97c4b;
+          }
+        }
       }
       .make_donation
       {
