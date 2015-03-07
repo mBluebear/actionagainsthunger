@@ -648,6 +648,135 @@ div.content {
       display: none;
       width: 100%;
       height: 704px;
+      .give_monthly
+      {
+        display: none;
+        background: #38cedc;
+        min-height: 100px;
+      }
+      .buy_live
+      {
+        display: none;
+        background: #febb1c;
+        min-height: 100px;
+
+      }
+      .fundraise
+      {
+        display: none;
+        background: #f97c4b;
+        min-height: 100px;
+      }
+      .make_donation
+      {
+        display: none;
+        text-align: center;
+        padding:45px;
+        background: #059fcc;
+        color:white;
+        p
+        {
+          text-align: left;
+        }
+        .amount_button {
+          width: 142px;
+          height: 73px;
+          display: inline-block;
+          border: 3px solid white;
+          color: white;
+          font-family: 'latoregular';
+          font-size: 25px;
+          text-align: CENTER;
+          padding-top: 15px;
+          margin: 10px;
+          cursor: pointer;
+          &:hover
+          {
+            background: white;
+            color:#059fcc;
+          }
+        }
+        img
+        {
+          text-align: center;
+          display: block;
+          margin:0 auto;
+        }
+        font-family: 'latoregular';
+        font-size: 16px;
+        h3 {
+          font-family: 'latoheavy';
+          font-size: 32px;
+        }
+
+        h4 {
+          font-family: 'latobold';
+          font-size: 22px;
+        }
+        .sent_button {
+          display: block;
+          margin: 0 auto;
+          width: 284px;
+          text-align: center;
+          color: white;
+          border: 3px solid white;
+          cursor: pointer;
+          font-size: 25px;
+          font-family: latoregular;
+          height: 73px;
+          padding-top: 16px;
+          margin-bottom: 10px;
+          &:hover {
+            background: #f15b22;
+            color: white;
+          }
+        }
+        .donation_form
+        {
+          height: 55px;
+          margin-top: 18px;
+          margin-bottom: 50px;
+          .input {
+            border: 3px solid #059fcc;
+            width: 155px;
+            height: 55px;
+            display: inline-block;
+            position: relative;
+            text-align: right;
+            div.dollar
+            {
+              position: absolute;
+              left: 4px;
+              top: 11px;
+              color:white;
+              font-family: 'latolight';
+              font-size: 22px;
+            }
+
+            input {
+              width: 80%;
+              border: 0px;
+              height: 49px;
+              position: absolute;
+              right: 0;
+            }
+          }
+          .donation_text {
+            display: inline;
+            position: relative;
+            top: -21px;
+          }
+          .select
+          {
+            display: inline;
+            position: relative;
+            top: -21px;
+            font-size: 22px;
+            font-family: 'latolight';
+          }
+        }
+      }
+
     }
   }
   .impact_page {
@@ -734,12 +863,90 @@ div.content {
 
   }
   .stories_page {
+    text-align: center;
     .stories_list {
-      background: url('../images/stories/stories_list.png') no-repeat;
-      width: 938px;
-      height: 567px;
       margin: 0 auto;
       margin-top: 40px;
+      text-align: center;
+      max-width: 938px;
+      .story
+      {
+        width: 297px;
+        height: 230px;
+        margin-right: 13px;
+        display: inline-block;
+        margin-bottom: 33px;
+        position: relative;
+        .story_heading {
+          position: absolute;
+          bottom: 0px;
+          height: 59px;
+          background: rgba(0, 0, 0, 0.45);
+          width: 100%;
+          font-family: 'latoheavy';
+          font-size: 12px;
+          text-align: left;
+          padding: 0;
+          padding-left: 11px;
+          color: white;
+          h2
+          {
+            font-size: 22px;
+            margin: 0 auto;
+            margin-top: 9px;
+          }
+        }
+        &.s1
+        {
+          background: url("../images/stories/aah-027.jpg") no-repeat;
+        }
+        &.s2
+        {
+          background: url("../images/stories/aah-003.jpg") no-repeat;
+        }
+
+        &.s3
+        {
+          background: url("../images/stories/aah-007.jpg") no-repeat;
+        }
+
+        &.s4
+        {
+          background: url("../images/stories/aah-008.jpg") no-repeat;
+        }
+
+        &.s5
+        {
+          background: url("../images/stories/aah-016.jpg") no-repeat;
+        }
+        &.s6
+        {
+          background: url("../images/stories/aah-019.jpg") no-repeat;
+        }
+      }
+    }
+    div.page
+    {
+      display: inline-block;
+
+      padding: 3px 3px 1px 2px;
+      margin-bottom: 19px;
+      &.active
+      {
+        background: #ef5214;
+        color:white;
+      }
+      &.p
+      {
+        cursor: pointer;
+        &:hover
+        {
+          background: #ef5214;
+          color:white;
+        }
+
+      }
+
     }
   }
   .header {
@@ -921,7 +1128,7 @@ div#nutrition {
     outline: none;
     border: 0;
     .modal-body {
-
+      padding:40px;
       img
       {
         text-align: center;
@@ -1010,6 +1217,12 @@ div#header_donation {
         text-align: CENTER;
         padding-top: 15px;
         margin: 10px;
+        cursor: pointer;
+        &:hover
+        {
+          background: #059fcc;
+          color:white;
+        }
       }
       img
       {

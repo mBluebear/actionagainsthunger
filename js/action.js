@@ -28,14 +28,41 @@ $(document).ready(function () {
         }
 
     });
-$('.hand').click(function(){
+$('.hand, .help_us_button').click(function(){
     $('#header_donation').modal('show')
 });
 
-
+    $('.learn_more_button').click(function(){
+        $('#nutrition').modal('show')
+    });
 
     $('.modal').on('show.bs.modal', function () {
         $('.modal-content').css({'height': ($(window).height()-130), 'overflow':'scroll','margin-top':'91px'});
     });
+
+    $('.menu_action').click(function(){
+        $('.action_menu_click').show();
+        if($(this).hasClass('make_donation'))
+        {
+            $('.action_menu_click').show();
+        }
+
+        if($(this).hasClass('fundraise'))
+        {
+            console.log('s');
+        }
+
+        if($(this).hasClass('give_monthly'))
+        {
+            console.log('s');
+        }
+
+        if($(this).hasClass('buy_live_saving'))
+        {
+            console.log('s');
+        }
+
+    });
+
 
 });

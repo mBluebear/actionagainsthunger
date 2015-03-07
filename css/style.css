@@ -641,6 +641,102 @@ div.content {
     display: none;
     width: 100%;
     height: 704px; }
+    div.content .take_action_page .action_menu_click .give_monthly {
+      display: none;
+      background: #38cedc;
+      min-height: 100px; }
+    div.content .take_action_page .action_menu_click .buy_live {
+      display: none;
+      background: #febb1c;
+      min-height: 100px; }
+    div.content .take_action_page .action_menu_click .fundraise {
+      display: none;
+      background: #f97c4b;
+      min-height: 100px; }
+    div.content .take_action_page .action_menu_click .make_donation {
+      text-align: center;
+      padding: 45px;
+      background: #059fcc;
+      color: white;
+      font-family: 'latoregular';
+      font-size: 16px; }
+      div.content .take_action_page .action_menu_click .make_donation p {
+        text-align: left; }
+      div.content .take_action_page .action_menu_click .make_donation .amount_button {
+        width: 142px;
+        height: 73px;
+        display: inline-block;
+        border: 3px solid white;
+        color: white;
+        font-family: 'latoregular';
+        font-size: 25px;
+        text-align: CENTER;
+        padding-top: 15px;
+        margin: 10px;
+        cursor: pointer; }
+        div.content .take_action_page .action_menu_click .make_donation .amount_button:hover {
+          background: white;
+          color: #059fcc; }
+      div.content .take_action_page .action_menu_click .make_donation img {
+        text-align: center;
+        display: block;
+        margin: 0 auto; }
+      div.content .take_action_page .action_menu_click .make_donation h3 {
+        font-family: 'latoheavy';
+        font-size: 32px; }
+      div.content .take_action_page .action_menu_click .make_donation h4 {
+        font-family: 'latobold';
+        font-size: 22px; }
+      div.content .take_action_page .action_menu_click .make_donation .sent_button {
+        display: block;
+        margin: 0 auto;
+        width: 284px;
+        text-align: center;
+        color: white;
+        border: 3px solid white;
+        cursor: pointer;
+        font-size: 25px;
+        font-family: latoregular;
+        height: 73px;
+        padding-top: 16px;
+        margin-bottom: 10px; }
+        div.content .take_action_page .action_menu_click .make_donation .sent_button:hover {
+          background: #f15b22;
+          color: white; }
+      div.content .take_action_page .action_menu_click .make_donation .donation_form {
+        height: 55px;
+        margin-top: 18px;
+        margin-bottom: 50px; }
+        div.content .take_action_page .action_menu_click .make_donation .donation_form .input {
+          border: 3px solid #059fcc;
+          width: 155px;
+          height: 55px;
+          display: inline-block;
+          position: relative;
+          text-align: right; }
+          div.content .take_action_page .action_menu_click .make_donation .donation_form .input div.dollar {
+            position: absolute;
+            left: 4px;
+            top: 11px;
+            color: white;
+            font-family: 'latolight';
+            font-size: 22px; }
+          div.content .take_action_page .action_menu_click .make_donation .donation_form .input input {
+            width: 80%;
+            border: 0px;
+            height: 49px;
+            position: absolute;
+            right: 0; }
+        div.content .take_action_page .action_menu_click .make_donation .donation_form .donation_text {
+          display: inline;
+          position: relative;
+          top: -21px; }
+        div.content .take_action_page .action_menu_click .make_donation .donation_form .select {
+          display: inline;
+          position: relative;
+          top: -21px;
+          font-size: 22px;
+          font-family: 'latolight'; }
   div.content .impact_page .take_action_mid {
     margin: 0 auto;
     text-align: center; }
@@ -706,12 +802,60 @@ div.content {
       margin: 20px; }
       div.content .impact_page .action_take .emergency:hover {
         background: #ff0c06; }
-  div.content .stories_page .stories_list {
-    background: url("../images/stories/stories_list.png") no-repeat;
-    width: 938px;
-    height: 567px;
-    margin: 0 auto;
-    margin-top: 40px; }
+  div.content .stories_page {
+    text-align: center; }
+    div.content .stories_page .stories_list {
+      margin: 0 auto;
+      margin-top: 40px;
+      text-align: center;
+      max-width: 938px; }
+      div.content .stories_page .stories_list .story {
+        width: 297px;
+        height: 230px;
+        margin-right: 13px;
+        display: inline-block;
+        margin-bottom: 33px;
+        position: relative; }
+        div.content .stories_page .stories_list .story .story_heading {
+          position: absolute;
+          bottom: 0px;
+          height: 59px;
+          background: rgba(0, 0, 0, 0.45);
+          width: 100%;
+          font-family: 'latoheavy';
+          font-size: 12px;
+          text-align: left;
+          padding: 0;
+          padding-left: 11px;
+          color: white; }
+          div.content .stories_page .stories_list .story .story_heading h2 {
+            font-size: 22px;
+            margin: 0 auto;
+            margin-top: 9px; }
+        div.content .stories_page .stories_list .story.s1 {
+          background: url("../images/stories/aah-027.jpg") no-repeat; }
+        div.content .stories_page .stories_list .story.s2 {
+          background: url("../images/stories/aah-003.jpg") no-repeat; }
+        div.content .stories_page .stories_list .story.s3 {
+          background: url("../images/stories/aah-007.jpg") no-repeat; }
+        div.content .stories_page .stories_list .story.s4 {
+          background: url("../images/stories/aah-008.jpg") no-repeat; }
+        div.content .stories_page .stories_list .story.s5 {
+          background: url("../images/stories/aah-016.jpg") no-repeat; }
+        div.content .stories_page .stories_list .story.s6 {
+          background: url("../images/stories/aah-019.jpg") no-repeat; }
+    div.content .stories_page div.page {
+      display: inline-block;
+      padding: 3px 3px 1px 2px;
+      margin-bottom: 19px; }
+      div.content .stories_page div.page.active {
+        background: #ef5214;
+        color: white; }
+      div.content .stories_page div.page.p {
+        cursor: pointer; }
+        div.content .stories_page div.page.p:hover {
+          background: #ef5214;
+          color: white; }
   div.content .header {
     margin: 0 auto;
     position: relative; }
@@ -840,6 +984,7 @@ div#nutrition .modal-content {
   outline: none;
   border: 0; }
   div#nutrition .modal-content .modal-body {
+    padding: 40px;
     font-family: 'latoregular';
     font-size: 16px; }
     div#nutrition .modal-content .modal-body img {
@@ -904,7 +1049,11 @@ div#header_donation .modal-content {
       font-size: 25px;
       text-align: CENTER;
       padding-top: 15px;
-      margin: 10px; }
+      margin: 10px;
+      cursor: pointer; }
+      div#header_donation .modal-content .modal-body .amount_button:hover {
+        background: #059fcc;
+        color: white; }
     div#header_donation .modal-content .modal-body img {
       text-align: center;
       display: block;
