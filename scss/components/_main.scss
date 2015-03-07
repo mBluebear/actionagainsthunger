@@ -614,28 +614,28 @@ div.content {
           }
         }
       }
-      .menu_action.make_donation:hover {
+      .menu_action.make_donation:hover, .menu_action.make_donation.active {
         background: #059fcc;
         color: white;
         div.footer {
           background: #fff;
         }
       }
-      .menu_action.fundraise:hover {
+      .menu_action.fundraise:hover, .menu_action.fundraise.active {
         color: white;
         background: #f97c4b;
         div.footer {
           background: #fff;
         }
       }
-      .menu_action.give_monthly:hover {
+      .menu_action.give_monthly:hover, .menu_action.give_monthly.active {
         color: white;
         background: #38cedc;
         div.footer {
           background: #fff;
         }
       }
-      .menu_action.buy_live_saving:hover {
+      .menu_action.buy_live_saving:hover, .menu_action.buy_live_saving.active {
         color: white;
         background: #febb1c;
         div.footer {
@@ -653,12 +653,14 @@ div.content {
         display: none;
         background: #38cedc;
         min-height: 100px;
+        height: 704px;
       }
       .buy_live
       {
         display: none;
         background: #febb1c;
         min-height: 100px;
+        height: 704px;
 
       }
       .fundraise
@@ -666,6 +668,7 @@ div.content {
         display: none;
         background: #f97c4b;
         min-height: 100px;
+        height: 704px;
       }
       .make_donation
       {
@@ -674,6 +677,7 @@ div.content {
         padding:45px;
         background: #059fcc;
         color:white;
+        height: 704px;
         p
         {
           text-align: left;

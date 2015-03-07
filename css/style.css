@@ -617,25 +617,25 @@ div.content {
           background: #38cedc; }
         div.content .take_action_page .action_menu div.menu_action div.footer.d {
           background: #febb1c; }
-    div.content .take_action_page .action_menu .menu_action.make_donation:hover {
+    div.content .take_action_page .action_menu .menu_action.make_donation:hover, div.content .take_action_page .action_menu .menu_action.make_donation.active {
       background: #059fcc;
       color: white; }
-      div.content .take_action_page .action_menu .menu_action.make_donation:hover div.footer {
+      div.content .take_action_page .action_menu .menu_action.make_donation:hover div.footer, div.content .take_action_page .action_menu .menu_action.make_donation.active div.footer {
         background: #fff; }
-    div.content .take_action_page .action_menu .menu_action.fundraise:hover {
+    div.content .take_action_page .action_menu .menu_action.fundraise:hover, div.content .take_action_page .action_menu .menu_action.fundraise.active {
       color: white;
       background: #f97c4b; }
-      div.content .take_action_page .action_menu .menu_action.fundraise:hover div.footer {
+      div.content .take_action_page .action_menu .menu_action.fundraise:hover div.footer, div.content .take_action_page .action_menu .menu_action.fundraise.active div.footer {
         background: #fff; }
-    div.content .take_action_page .action_menu .menu_action.give_monthly:hover {
+    div.content .take_action_page .action_menu .menu_action.give_monthly:hover, div.content .take_action_page .action_menu .menu_action.give_monthly.active {
       color: white;
       background: #38cedc; }
-      div.content .take_action_page .action_menu .menu_action.give_monthly:hover div.footer {
+      div.content .take_action_page .action_menu .menu_action.give_monthly:hover div.footer, div.content .take_action_page .action_menu .menu_action.give_monthly.active div.footer {
         background: #fff; }
-    div.content .take_action_page .action_menu .menu_action.buy_live_saving:hover {
+    div.content .take_action_page .action_menu .menu_action.buy_live_saving:hover, div.content .take_action_page .action_menu .menu_action.buy_live_saving.active {
       color: white;
       background: #febb1c; }
-      div.content .take_action_page .action_menu .menu_action.buy_live_saving:hover div.footer {
+      div.content .take_action_page .action_menu .menu_action.buy_live_saving:hover div.footer, div.content .take_action_page .action_menu .menu_action.buy_live_saving.active div.footer {
         background: #fff; }
   div.content .take_action_page .action_menu_click {
     display: none;
@@ -644,20 +644,25 @@ div.content {
     div.content .take_action_page .action_menu_click .give_monthly {
       display: none;
       background: #38cedc;
-      min-height: 100px; }
+      min-height: 100px;
+      height: 704px; }
     div.content .take_action_page .action_menu_click .buy_live {
       display: none;
       background: #febb1c;
-      min-height: 100px; }
+      min-height: 100px;
+      height: 704px; }
     div.content .take_action_page .action_menu_click .fundraise {
       display: none;
       background: #f97c4b;
-      min-height: 100px; }
+      min-height: 100px;
+      height: 704px; }
     div.content .take_action_page .action_menu_click .make_donation {
+      display: none;
       text-align: center;
       padding: 45px;
       background: #059fcc;
       color: white;
+      height: 704px;
       font-family: 'latoregular';
       font-size: 16px; }
       div.content .take_action_page .action_menu_click .make_donation p {

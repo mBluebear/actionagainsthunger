@@ -42,24 +42,31 @@ $('.hand, .help_us_button').click(function(){
 
     $('.menu_action').click(function(){
         $('.action_menu_click').show();
+        $('.action_menu_click div.action_click').hide();
+        $('.menu_action').removeClass('active');
         if($(this).hasClass('make_donation'))
         {
-            $('.action_menu_click').show();
+            $('.action_menu_click .make_donation').show();
+            $('.menu_action.make_donation').addClass('active');
         }
+
 
         if($(this).hasClass('fundraise'))
         {
-            console.log('s');
+            $('.action_menu_click .fundraise').show();
+            $('.menu_action.fundraise').addClass('active');
         }
 
         if($(this).hasClass('give_monthly'))
         {
-            console.log('s');
+            $('.action_menu_click .give_monthly').show();
+            $('.menu_action.give_monthly').addClass('active');
         }
 
         if($(this).hasClass('buy_live_saving'))
         {
-            console.log('s');
+            $('.action_menu_click .buy_live').show();
+            $('.menu_action.buy_live_saving').addClass('active');
         }
 
     });
