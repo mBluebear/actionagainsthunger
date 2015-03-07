@@ -32,6 +32,7 @@
   display: none;
 }
 
+
 header {
   background: transparent;
   color: white;
@@ -849,6 +850,36 @@ div#nutrition {
     background: url('../images/impact/nutrition_header.jpg') no-repeat;
     width: 847px;
     height: 341px;
+    position: relative;
+    button.close
+    {
+      font-family: 'latothin';
+      font-size: 72px;
+      color: white;
+      opacity: 1;
+      &:hover
+      {
+        color:grey;
+      }
+    }
+    h2{
+      font-family: 'latoheavy';
+      font-size: 35px;
+      color:white;
+      text-transform: uppercase;
+    }
+    .header_text
+    {
+      position: absolute;
+      bottom: 15px;
+      left: 15px;
+      span {
+        font-family: 'latothin';
+        font-size: 22px;
+        color:white;
+      }
+    }
+
   }
 
   .modal-content {
@@ -857,6 +888,7 @@ div#nutrition {
     outline: none;
     border: 0;
     .modal-body {
+
       img
       {
         text-align: center;
@@ -888,6 +920,38 @@ div#header_donation {
     background: url('../images/donation_header.jpg') no-repeat;
     width: 846px;
     height: 341px;
+    border:0;
+    outline:0;
+    position: relative;
+    button.close
+    {
+      font-family: 'latothin';
+      font-size: 72px;
+      color: white;
+      opacity: 1;
+      &:hover
+      {
+        color:grey;
+      }
+    }
+    h2{
+      font-family: 'latoheavy';
+      font-size: 35px;
+      color:white;
+      text-transform: uppercase;
+    }
+    .header_text
+    {
+      position: absolute;
+      bottom: 15px;
+      left: 15px;
+      span {
+        font-family: 'latothin';
+        font-size: 22px;
+        color:white;
+      }
+    }
+
   }
 
   .modal-content {
@@ -896,6 +960,24 @@ div#header_donation {
     outline: none;
     border: 0;
     .modal-body {
+      text-align: center;
+      padding:45px;
+      p
+      {
+        text-align: left;
+      }
+      .amount_button {
+        width: 142px;
+        height: 73px;
+        display: inline-block;
+        border: 3px solid #059fcc;
+        color: #059fcc;
+        font-family: 'latoregular';
+        font-size: 25px;
+        text-align: CENTER;
+        padding-top: 15px;
+        margin: 10px;
+      }
       img
       {
         text-align: center;
@@ -912,6 +994,68 @@ div#header_donation {
       h4 {
         font-family: 'latobold';
         font-size: 22px;
+      }
+      .sent_button {
+        display: block;
+        margin: 0 auto;
+        width: 284px;
+        text-align: center;
+        color: #f15b22;
+        border: 3px solid #f15b22;
+        cursor: pointer;
+        font-size: 25px;
+        font-family: latoregular;
+        height: 73px;
+        padding-top: 16px;
+        margin-bottom: 10px;
+        &:hover {
+          background: #f15b22;
+          color: white;
+        }
+      }
+      .donation_form
+      {
+        height: 55px;
+        margin-top: 18px;
+        margin-bottom: 50px;
+        .input {
+          border: 3px solid #059fcc;
+          width: 155px;
+          height: 55px;
+          display: inline-block;
+          position: relative;
+          text-align: right;
+          div.dollar
+          {
+            position: absolute;
+            left: 4px;
+            top: 11px;
+            color:#059fcc;
+            font-family: 'latolight';
+            font-size: 22px;
+          }
+
+          input {
+            width: 80%;
+            border: 0px;
+            height: 49px;
+            position: absolute;
+            right: 0;
+          }
+        }
+        .donation_text {
+          display: inline;
+          position: relative;
+          top: -21px;
+        }
+        .select
+        {
+          display: inline;
+          position: relative;
+          top: -21px;
+          font-size: 22px;
+          font-family: 'latolight';
+        }
       }
     }
   }

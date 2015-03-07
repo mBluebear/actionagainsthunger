@@ -32,4 +32,10 @@ $('.hand').click(function(){
     $('#header_donation').modal('show')
 });
 
+
+
+    $('.modal').on('show.bs.modal', function () {
+        $('.modal-content').css({'height': ($(window).height()-130), 'overflow':'scroll','margin-top':'91px'});
+    });
+
 });
