@@ -3,6 +3,18 @@
 $light-grey: #ccc;
 $text-color: #222;
 
+@font-face {
+  font-family: 'latoheavy';
+  src: url('../font/Lato-Heavy-webfont.eot');
+  src: url('../font/Lato-Heavy-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/Lato-Heavy-webfont.woff2') format('woff2'),
+  url('../font/Lato-Heavy-webfont.woff') format('woff'),
+  url('../font/Lato-Heavy-webfont.ttf') format('truetype'),
+  url('../font/Lato-Heavy-webfont.svg#latoheavy') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 @font-face {
   font-family: 'latothin';
@@ -30,9 +42,6 @@ $text-color: #222;
 
 }
 
-
-
-
 @font-face {
   font-family: 'latohairline';
   src: url('../font/lato-hai-webfont.eot');
@@ -45,9 +54,6 @@ $text-color: #222;
   font-style: normal;
 
 }
-
-
-
 
 @font-face {
   font-family: 'latoregular';
@@ -62,9 +68,6 @@ $text-color: #222;
 
 }
 
-
-
-
 @font-face {
   font-family: 'latolight_italic';
   src: url('../font/lato-ligita-webfont.eot');
@@ -77,9 +80,6 @@ $text-color: #222;
   font-style: normal;
 
 }
-
-
-
 
 @font-face {
   font-family: 'latolight';
@@ -94,9 +94,6 @@ $text-color: #222;
 
 }
 
-
-
-
 @font-face {
   font-family: 'latohairline_italic';
   src: url('../font/lato-haiita-webfont.eot');
@@ -110,9 +107,6 @@ $text-color: #222;
 
 }
 
-
-
-
 @font-face {
   font-family: 'latobold';
   src: url('../font/lato-bol-webfont.eot');
@@ -125,9 +119,6 @@ $text-color: #222;
   font-style: normal;
 
 }
-
-
-
 
 @font-face {
   font-family: 'latoblack';

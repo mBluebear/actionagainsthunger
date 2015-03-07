@@ -1,6 +1,12 @@
 @charset "UTF-8";
 /* Scss Document */
 @font-face {
+  font-family: 'latoheavy';
+  src: url("../font/Lato-Heavy-webfont.eot");
+  src: url("../font/Lato-Heavy-webfont.eot?#iefix") format("embedded-opentype"), url("../font/Lato-Heavy-webfont.woff2") format("woff2"), url("../font/Lato-Heavy-webfont.woff") format("woff"), url("../font/Lato-Heavy-webfont.ttf") format("truetype"), url("../font/Lato-Heavy-webfont.svg#latoheavy") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
   font-family: 'latothin';
   src: url("../font/Lato-Thin-webfont.eot");
   src: url("../font/Lato-Thin-webfont.eot?#iefix") format("embedded-opentype"), url("../font/Lato-Thin-webfont.woff2") format("woff2"), url("../font/Lato-Thin-webfont.woff") format("woff"), url("../font/Lato-Thin-webfont.ttf") format("truetype"), url("../font/Lato-Thin-webfont.svg#latothin") format("svg");
@@ -176,7 +182,7 @@ header {
             font-family: 'latoregular';
             font-size: 16px;
             color: white; }
-            header nav.navbar.navbar-default .container-fluid .navbar-nav li a.current {
+            header nav.navbar.navbar-default .container-fluid .navbar-nav li a.current, header nav.navbar.navbar-default .container-fluid .navbar-nav li a:hover {
               text-decoration: none;
               border-bottom: 2px solid #fff;
               padding-bottom: 0;
@@ -184,9 +190,6 @@ header {
               padding-right: 0;
               margin-left: 15px;
               margin-right: 15px; }
-          header nav.navbar.navbar-default .container-fluid .navbar-nav li:hover {
-            background: #58595b;
-            border: none; }
 
 body {
   background: #232020;
@@ -196,6 +199,67 @@ div.content {
   min-height: 500px;
   width: 1024px;
   margin: 0 auto; }
+  div.content .home_page .unique {
+    padding: 25px;
+    width: 560px;
+    margin: 0 auto;
+    position: relative; }
+    div.content .home_page .unique h2 {
+      font-family: latoblack;
+      font-size: 47px;
+      color: #231f20;
+      text-align: center;
+      margin-top: 26px;
+      margin-left: -96px; }
+    div.content .home_page .unique span {
+      display: block;
+      width: 593px;
+      margin: 0 auto;
+      position: relative;
+      left: -55px;
+      font-size: 16px;
+      font-family: latoregular;
+      top: 4px; }
+      div.content .home_page .unique span ul {
+        list-style: none;
+        margin-left: -29px;
+        margin-top: 11px;
+        line-height: 2.5; }
+        div.content .home_page .unique span ul li b {
+          font-family: latobold; }
+        div.content .home_page .unique span ul li:before {
+          content: "• ";
+          color: #f15b22;
+          font-size: 18px; }
+      div.content .home_page .unique span a {
+        color: #f15b22;
+        font-family: latobold; }
+    div.content .home_page .unique img.hand {
+      position: absolute;
+      right: -233px;
+      top: 106px; }
+  div.content .home_page .out_impact {
+    margin: 0 auto;
+    text-align: center;
+    height: 496px;
+    background: rgba(16, 174, 220, 0.11);
+    padding-top: 53px; }
+  div.content .home_page .country {
+    margin: 0 auto;
+    text-align: center;
+    background: #0e3455;
+    padding: 10px; }
+    div.content .home_page .country h2 {
+      font-family: 'latoblack';
+      font-size: 50px;
+      color: white; }
+    div.content .home_page .country .footer_country {
+      font-family: 'latoregular';
+      font-size: 16px;
+      color: white;
+      width: 626px;
+      margin: 0 auto;
+      text-align: left; }
   div.content .about_page .unique {
     height: 438px;
     padding: 25px;
@@ -267,6 +331,9 @@ div.content {
       color: white;
       font-size: 25px;
       font-family: latoregular; }
+      div.content .about_page .why_matters .help_us_button:hover {
+        background: white;
+        color: #f26522; }
   div.content .about_page .slider {
     height: 520px; }
     div.content .about_page .slider .slide strong {
@@ -293,7 +360,10 @@ div.content {
       font-family: latothin;
       margin-top: 31px;
       text-align: center; }
-    div.content .about_page .slider .slide .learn_more_button {
+    div.content .about_page .slider .slide.number1 {
+      background: url("../images/about/slider1.jpg") no-repeat;
+      height: 521px; }
+    div.content .about_page .slider .learn_more_button {
       display: block;
       margin: 0 auto;
       margin-top: -154px;
@@ -308,9 +378,9 @@ div.content {
       left: 1px;
       height: 73px;
       padding-top: 16px; }
-    div.content .about_page .slider .slide.number1 {
-      background: url("../images/about/slider1.jpg") no-repeat;
-      height: 521px; }
+      div.content .about_page .slider .learn_more_button:hover {
+        background: #f15b22;
+        color: white; }
   div.content .about_page .acf {
     height: 468px;
     margin: 0 auto;
@@ -375,6 +445,9 @@ div.content {
       font-size: 25px;
       font-family: latoregular;
       padding-top: 16px; }
+      div.content .about_page .our_partners .learn_more_button:hover {
+        background: #f15b22;
+        color: white; }
   div.content .about_page .video {
     height: 520px;
     text-align: center;
@@ -406,30 +479,141 @@ div.content {
     text-align: center; }
     div.content .take_action_page .action_take img {
       padding: 25px; }
+  div.content .take_action_page .action_menu div.menu_action {
+    display: inline-block;
+    width: 255px;
+    text-align: center;
+    height: 169px;
+    position: relative;
+    margin-right: -3px; }
+    div.content .take_action_page .action_menu div.menu_action div.action_text {
+      font-family: "latolight";
+      font-size: 25px;
+      display: block;
+      width: 150px;
+      float: left;
+      position: relative;
+      margin-left: 50px; }
+    div.content .take_action_page .action_menu div.menu_action span.glyphicon.glyphicon-chevron-right {
+      position: absolute;
+      top: 13px;
+      font-size: 15px;
+      right: -20px; }
+    div.content .take_action_page .action_menu div.menu_action b {
+      display: block;
+      text-align: center;
+      margin: 0 auto;
+      font-family: "latoblack";
+      font-size: 40px; }
+    div.content .take_action_page .action_menu div.menu_action div.footer {
+      position: absolute;
+      bottom: 0;
+      width: 256px;
+      height: 20px; }
+      div.content .take_action_page .action_menu div.menu_action div.footer.a {
+        background: #059fcc; }
+      div.content .take_action_page .action_menu div.menu_action div.footer.b {
+        background: #f97c4b; }
+      div.content .take_action_page .action_menu div.menu_action div.footer.c {
+        background: #38cedc; }
+      div.content .take_action_page .action_menu div.menu_action div.footer.d {
+        background: #febb1c; }
+  div.content .take_action_page .action_menu .menu_action.make_donation:hover {
+    background: #059fcc;
+    color: white; }
+    div.content .take_action_page .action_menu .menu_action.make_donation:hover div.footer {
+      background: #fff; }
+  div.content .take_action_page .action_menu .menu_action.fundraise:hover {
+    color: white;
+    background: #f97c4b; }
+    div.content .take_action_page .action_menu .menu_action.fundraise:hover div.footer {
+      background: #fff; }
+  div.content .take_action_page .action_menu .menu_action.give_monthly:hover {
+    color: white;
+    background: #38cedc; }
+    div.content .take_action_page .action_menu .menu_action.give_monthly:hover div.footer {
+      background: #fff; }
+  div.content .take_action_page .action_menu .menu_action.buy_live_saving:hover {
+    color: white;
+    background: #febb1c; }
+    div.content .take_action_page .action_menu .menu_action.buy_live_saving:hover div.footer {
+      background: #fff; }
+  div.content .take_action_page .action_menu_click {
+    display: none;
+    width: 100%;
+    height: 704px; }
   div.content .impact_page .action_take {
+    background: rgba(172, 246, 255, 0.21);
     margin: 0 auto;
-    text-align: center; }
-    div.content .impact_page .action_take img {
-      padding: 25px; }
-      div.content .impact_page .action_take img.nutrition:hover {
-        content: url("../images/impact/nutrition_hover.jpg");
-        width: 509px;
-        height: 435px; }
-      div.content .impact_page .action_take img.food:hover {
-        content: url("../images/impact/food_hover.jpg");
-        width: 509px;
-        height: 435px; }
-      div.content .impact_page .action_take img.water:hover {
-        content: url("../images/impact/water_hover.jpg");
-        width: 509px;
-        height: 435px; }
-      div.content .impact_page .action_take img.emergency:hover {
-        content: url("../images/impact/emergency_hover.jpg");
-        width: 509px;
-        height: 435px; }
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 52px; }
+    div.content .impact_page .action_take div img {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 46px;
+      bottom: 0;
+      margin: 0 auto; }
+    div.content .impact_page .action_take div p {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 220px;
+      bottom: 0;
+      margin: 0 auto;
+      font-family: 'latoheavy';
+      font-size: 30px;
+      color: white; }
+    div.content .impact_page .action_take .nutrition {
+      background: url("../images/impact/nutrition_bg.jpg") no-repeat;
+      width: 390px;
+      height: 327px;
+      display: inline-block;
+      position: relative;
+      margin: 20px; }
+      div.content .impact_page .action_take .nutrition:hover {
+        background: #f68e55; }
+    div.content .impact_page .action_take .water {
+      background: url("../images/impact/water_bg.jpg") no-repeat;
+      width: 390px;
+      height: 327px;
+      display: inline-block;
+      position: relative;
+      margin: 20px; }
+      div.content .impact_page .action_take .water:hover {
+        background: #089cff; }
+    div.content .impact_page .action_take .food {
+      background: url("../images/impact/food_bg.jpg") no-repeat;
+      width: 390px;
+      height: 327px;
+      display: inline-block;
+      position: relative;
+      margin: 20px; }
+      div.content .impact_page .action_take .food:hover {
+        background: #5bd26e; }
+    div.content .impact_page .action_take .emergency {
+      background: url("../images/impact/emergency_bg.jpg") no-repeat;
+      width: 390px;
+      height: 327px;
+      display: inline-block;
+      position: relative;
+      margin: 20px; }
+      div.content .impact_page .action_take .emergency:hover {
+        background: #ff0c06; }
+  div.content .stories_page .stories_list {
+    background: url("../images/stories/stories_list.png") no-repeat;
+    width: 938px;
+    height: 567px;
+    margin: 0 auto;
+    margin-top: 40px; }
   div.content .header {
     margin: 0 auto;
     position: relative; }
+    div.content .header img.hand {
+      position: absolute;
+      right: 0px;
+      bottom: 20px; }
     div.content .header .content_header {
       width: 670px;
       padding: 32px;
@@ -442,7 +626,7 @@ div.content {
         padding-left: 3px;
         line-height: 1; }
       div.content .header .content_header span {
-        color: white;
+        color: #f1f2f2;
         font-size: 22px;
         font-family: latothin;
         line-height: 1.35; }
@@ -451,6 +635,14 @@ div.content {
       width: 100%;
       height: 520px;
       background-position: center; }
+    div.content .header.home {
+      background: url("../images/home_header.jpg") no-repeat;
+      width: 100%;
+      height: 520px;
+      background-position: center; }
+      div.content .header.home div.content_header h1 {
+        font-family: 'latoblack';
+        font-size: 47px; }
     div.content .header.take_action {
       background: url("../images/take_action/take_action_header.jpg") no-repeat;
       width: 100%;
@@ -458,6 +650,11 @@ div.content {
       background-position: center; }
     div.content .header.impact {
       background: url("../images/impact/impact.jpg") no-repeat;
+      width: 100%;
+      height: 520px;
+      background-position: center; }
+    div.content .header.stories {
+      background: url("../images/stories/stories.jpg") no-repeat;
       width: 100%;
       height: 520px;
       background-position: center; }
@@ -499,6 +696,56 @@ footer {
       color: #f15b22;
       border-radius: 0;
       border: 3px solid #f15b22; }
+
+div#nutrition .modal-dialog {
+  width: 847px; }
+div#nutrition .modal-header {
+  background: url("../images/impact/nutrition_header.jpg") no-repeat;
+  width: 847px;
+  height: 341px; }
+div#nutrition .modal-content {
+  background: white;
+  border-radius: 0;
+  outline: none;
+  border: 0; }
+  div#nutrition .modal-content .modal-body {
+    font-family: 'latoregular';
+    font-size: 16px; }
+    div#nutrition .modal-content .modal-body img {
+      text-align: center;
+      display: block;
+      margin: 0 auto; }
+    div#nutrition .modal-content .modal-body h3 {
+      font-family: 'latoheavy';
+      font-size: 32px; }
+    div#nutrition .modal-content .modal-body h4 {
+      font-family: 'latobold';
+      font-size: 22px; }
+
+div#header_donation .modal-dialog {
+  width: 847px; }
+div#header_donation .modal-header {
+  background: url("../images/donation_header.jpg") no-repeat;
+  width: 846px;
+  height: 341px; }
+div#header_donation .modal-content {
+  background: white;
+  border-radius: 0;
+  outline: none;
+  border: 0; }
+  div#header_donation .modal-content .modal-body {
+    font-family: 'latoregular';
+    font-size: 16px; }
+    div#header_donation .modal-content .modal-body img {
+      text-align: center;
+      display: block;
+      margin: 0 auto; }
+    div#header_donation .modal-content .modal-body h3 {
+      font-family: 'latoheavy';
+      font-size: 32px; }
+    div#header_donation .modal-content .modal-body h4 {
+      font-family: 'latobold';
+      font-size: 22px; }
 
 @media (max-width: 767px) {
   .desktop {
