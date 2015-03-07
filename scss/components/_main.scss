@@ -543,6 +543,51 @@ div.content {
     .slider
     {
       text-align: center;
+
+      .slider1
+      {
+        background: url("../images/take_action/take_action_slide.jpg") no-repeat;
+        width: 100%;
+        background-size: cover;
+        background-position: top;
+        height: 623px;
+        color: white;
+        padding-top: 40px;
+        h3
+        {
+          font-family: 'latoheavy';
+          font-size: 33px;
+        }
+        h2
+        {
+          font-family: 'latoblack';
+          font-size: 50px;
+          margin-top: 90px;
+          margin-bottom: 90px;
+        }
+        p{
+          font-family: 'latothin';
+          font-size: 22px;
+        }
+        .learn_more
+        {
+          font-family: 'latoregular';
+          font-size: 25px;
+          width: 342px;
+          height: 73px;
+          border: 3px solid white;
+          margin: 0 auto;
+          text-align: center;
+          padding-top: 16px;
+          margin-top: 70px;
+          cursor: pointer;
+          &:hover
+          {
+            background: white;
+            color:black;
+          }
+        }
+      }
     }
     .take_action_mid {
       text-align: center;
@@ -731,8 +776,8 @@ div.content {
           padding-top: 16px;
           margin-bottom: 10px;
           &:hover {
-            background: #f15b22;
-            color: white;
+            background: white;
+            color: #059fcc;
           }
         }
         .donation_form
@@ -747,12 +792,13 @@ div.content {
             display: inline-block;
             position: relative;
             text-align: right;
+            background: white;
             div.dollar
             {
               position: absolute;
               left: 4px;
               top: 11px;
-              color:white;
+              color:#059fcc;
               font-family: 'latolight';
               font-size: 22px;
             }

@@ -32,7 +32,7 @@ $('.hand, .help_us_button').click(function(){
     $('#header_donation').modal('show')
 });
 
-    $('.learn_more_button').click(function(){
+    $('.learn_more_button, .learn_more').click(function(){
         $('#nutrition').modal('show')
     });
 
