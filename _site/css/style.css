@@ -222,6 +222,17 @@ header {
         text-shadow: 0 0 0; }
     header .social_icon .icons {
       float: right; }
+      header .social_icon .icons .login {
+        display: inline-block;
+        border: 2px solid white;
+        font-size: 12px;
+        padding: 1px;
+        padding-left: 12px;
+        padding-right: 12px;
+        cursor: pointer; }
+        header .social_icon .icons .login:hover {
+          color: black;
+          background: white; }
     header .social_icon img {
       height: 30px; }
   header .logo {

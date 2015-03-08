@@ -101,6 +101,20 @@ header {
 
     .icons {
       float: right;
+      .login {
+        display: inline-block;
+        border: 2px solid white;
+        font-size: 12px;
+        padding: 1px;
+        padding-left: 12px;
+        padding-right: 12px;
+        cursor: pointer;
+        &:hover
+        {
+          color:black;
+          background: white;
+        }
+      }
     }
     img {
       height: 30px;
@@ -1724,6 +1738,7 @@ div.control_next {
     }
     .social_icon {
       margin-right: 69px;
+
     }
     nav.navbar.navbar-default {
       .container-fluid .navbar-nav li {
