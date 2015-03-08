@@ -136,7 +136,7 @@ $('.hand, .help_us_button').click(function(){
 
 
     function moveRight1() {
-        var arr = ['../images/home/aah-20.jpg', '../images/home/aah-21.jpg', '../images/home/aah-22.jpg', '../images/home/aah-41.jpg'];
+        var arr = [baseurl+'/images/home/aah-20.jpg', baseurl+'/images/home/aah-21.jpg', baseurl+'/images/home/aah-22.jpg', baseurl+'/images/home/aah-41.jpg'];
         shuffle(arr);
         $('div.content .header.home').css('background-image','url('+arr[0]+')');
         $('#slider_head ul').animate({
