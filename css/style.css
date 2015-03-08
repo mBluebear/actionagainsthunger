@@ -597,7 +597,7 @@ div.content {
   div.content .about_page .our_partners {
     height: auto;
     text-align: center;
-    padding-top: 47px; }
+    padding: 47px; }
     div.content .about_page .our_partners h2 {
       font-family: latoblack;
       color: #f15b22;
@@ -1486,6 +1486,10 @@ div.control_next {
   font-size: 18px; }
 
 @media (max-width: 767px) {
+  div.content .header .hand {
+    margin: 0 auto;
+    text-align: ce; }
+
   .map {
     -ms-transform: scale(0.7);
     -webkit-transform: scale(0.7);
@@ -1507,6 +1511,10 @@ div.control_next {
     width: 100%;
     text-align: center;
     bottom: 101px; }
+    div.content .header .content_header h1 {
+      font-size: 40px; }
+    div.content .header .content_header span {
+      font-size: 15px; }
 
   div.content .header div.hand {
     left: 0;

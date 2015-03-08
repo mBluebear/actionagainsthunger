@@ -605,7 +605,7 @@ div.content {
     .our_partners {
       height: auto;
       text-align: center;
-      padding-top: 47px;
+      padding: 47px;
 
       h2 {
         font-family: latoblack;
@@ -1815,7 +1815,11 @@ div.control_next {
 
 }
 @media (max-width: 767px) {
-
+  div.content .header .hand
+  {
+    margin:0 auto;
+    text-align: center;
+  }
   .map {
     -ms-transform: scale(0.7);
     -webkit-transform: scale(0.7);
@@ -1842,6 +1846,13 @@ div.control_next {
     width: 100%;
     text-align: center;
     bottom: 101px;
+    h1
+    {
+      font-size: 40px;
+    }
+    span{
+      font-size: 15px;
+    }
   }
   div.content .header div.hand
   {

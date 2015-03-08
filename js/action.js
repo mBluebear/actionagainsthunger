@@ -42,8 +42,8 @@ $('.hand, .help_us_button').click(function(){
 
     $('.menu_action').click(function(){
         $('.action_menu_click').show();
-        $('.action_menu_click div.action_click').hide();
-        $('.menu_action').removeClass('active');
+/*        $('.action_menu_click div.action_click').hide();
+        $('.menu_action').removeClass('active');*/
         if($(this).hasClass('make_donation'))
         {
             $('.action_menu_click .make_donation').show();
@@ -51,7 +51,7 @@ $('.hand, .help_us_button').click(function(){
         }
 
 
-        if($(this).hasClass('fundraise'))
+/*        if($(this).hasClass('fundraise'))
         {
             $('.action_menu_click .fundraise').show();
             $('.menu_action.fundraise').addClass('active');
@@ -67,7 +67,7 @@ $('.hand, .help_us_button').click(function(){
         {
             $('.action_menu_click .buy_live').show();
             $('.menu_action.buy_live_saving').addClass('active');
-        }
+        }*/
 
     });
 
