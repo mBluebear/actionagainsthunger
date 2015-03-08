@@ -252,7 +252,8 @@ header {
     header nav.navbar.navbar-default.scroll {
       background: #10bcff;
       opacity: 0.9;
-      border-radius: 0; }
+      border-radius: 0;
+      padding: 10px; }
     header nav.navbar.navbar-default button.navbar-toggle {
       background: none;
       border-radius: 0;
@@ -637,7 +638,7 @@ div.content {
       text-align: left;
       position: absolute;
       top: 0;
-      left: 0;
+      left: 30px;
       right: 0; }
       div.content .about_page .video .play .title {
         color: white;
@@ -762,6 +763,7 @@ div.content {
       height: 704px;
       color: white;
       text-align: center;
+      padding: 20px;
       font-family: 'latoregular';
       font-size: 16px; }
       div.content .take_action_page .action_menu_click .give_monthly p {

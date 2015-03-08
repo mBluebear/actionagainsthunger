@@ -143,6 +143,7 @@ header {
       background: #10bcff;
       opacity: 0.9;
       border-radius: 0;
+      padding:10px;
     }
     background: none;
     border: 0;
@@ -652,7 +653,7 @@ div.content {
         text-align: left;
         position: absolute;
         top: 0;
-        left: 0;
+        left: 30px;
         right: 0;
         .title {
           color: white;
@@ -665,6 +666,7 @@ div.content {
           font-size: 40px;
           color: white;
         }
+
       }
     }
   }
@@ -831,6 +833,7 @@ div.content {
         height: 704px;
         color:white;
         text-align: center;
+        padding:20px;
         p
         {
           text-align: left;
