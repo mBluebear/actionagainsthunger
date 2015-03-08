@@ -7,14 +7,14 @@
     <meta name="mobileoptimized" content="240">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
     <script src="/js/action.js"></script>
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
     <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
 
 
 </head>
@@ -26,8 +26,9 @@
         <div class="logo"><a href="/"><img src="/images/logo.png" alt="" width="100%" height="100%"/></a></div>
         <div class="social_icon">
             <div class="icons">
-                <img src="/images/facebook.png" alt=""/>
-                <img src="/images/twitter.png" alt=""/>
+                <a href="https://www.facebook.com/actionagainsthunger?_rdr" target="_blank"> <img src="/images/facebook.png" alt=""/></a>
+                <a href="https://twitter.com/acfusa" target="_blank"><img src="/images/twitter.png" alt=""/></a>
+                <div class="login"></div>
             </div>
             <div class="search-container">
                 <input placeholder="search" type="text">
@@ -69,10 +70,28 @@
 
     <div class="header home">
         <div class="content_header">
-            <h1>Thank You for a Great Year</h1>
-<span>
-    Hats off to you! Your support helped us touch more than nine million lives in 2014. .
-</span>
+
+
+
+            <div id="slider_head">
+                <ul>
+                    <li data-url="/images/home/aah-20.png">
+                        <h1>Thank You for a Great Year</h1>
+                        <span>
+                            Hats off to you! Your support helped us touch more than nine million lives in 2014. .
+                        </span>
+                    </li>
+
+                    <li data-url="/images/home/aah-21.png">
+                        <h1>Aduuuu</h1>
+                        <span>
+                            Hats off to you! Your support helped us touch more than nine million lives in 2014. .
+                        </span>
+                    </li>
+                </ul>
+            </div>
+
+
         </div>
         <img class="hand" src="/images/about/about_hand.png" alt=""/>
     </div>
@@ -147,7 +166,7 @@
                         margin: 0 auto;
                         margin-top: 50px;
                         margin-bottom: 37px;
-                        background: url('../images/maps.png') no-repeat;
+                        background: url('/images/maps.png') no-repeat;
                         width: 946px;
                         height: 498px;
                         background-size: contain;

@@ -116,4 +116,39 @@ $('.hand, .help_us_button').click(function(){
             moveRight();
         });
 
+
+
+
+    setInterval(function () {
+        moveRight1();
+    }, 4000);
+
+    var slideCounts = $('#slider_head ul li').length;
+    var slideWidths = $('#slider_head ul li').width();
+    var slideHeights = $('#slider_head ul li').height();
+    var sliderUlWidths = slideCounts * slideWidths;
+
+    $('#slider_head').css({ width: slideWidths, height: slideHeights });
+
+    $('#slider_head ul').css({ width: sliderUlWidths, marginLeft: - slideWidths });
+
+    $('#slider_head ul li:last-child').prependTo('#slider_head ul');
+
+
+    function moveRight1() {
+        var arr = ['../images/home/aah-20.jpg', '../images/home/aah-21.jpg', '../images/home/aah-22.jpg', '../images/home/aah-41.jpg'];
+        shuffle(arr);
+        $('div.content .header.home').css('background-image','url('+arr[0]+')');
+        $('#slider_head ul').animate({
+            left: - slideWidth
+        }, 200, function () {
+            $('#slider_head ul li:first-child').appendTo('#slider_head ul');
+            $('#slider_head ul').css('left', '');
+        });
+    };
+
 });
+function shuffle(o){ //v1.0
+    for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+    return o;
+};

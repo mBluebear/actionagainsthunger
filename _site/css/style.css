@@ -1011,7 +1011,8 @@ div.content {
         margin-right: 13px;
         display: inline-block;
         margin-bottom: 33px;
-        position: relative; }
+        position: relative;
+        cursor: pointer; }
         div.content .stories_page .stories_list .story .story_heading {
           position: absolute;
           bottom: 0px;
@@ -1317,23 +1318,43 @@ div#header_donation .modal-content {
   overflow: hidden;
   margin: 20px auto 0 auto;
   border-radius: 4px; }
+  #slider ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    list-style: none; }
+    #slider ul li {
+      position: relative;
+      display: block;
+      float: left;
+      margin: 0;
+      padding: 0;
+      width: 1024px;
+      height: 565px;
+      text-align: center; }
 
-#slider ul {
+#slider_head {
+  height: 100px;
   position: relative;
-  margin: 0;
-  padding: 0;
-  height: 200px;
-  list-style: none; }
-
-#slider ul li {
-  position: relative;
-  display: block;
-  float: left;
-  margin: 0;
-  padding: 0;
-  width: 1024px;
-  height: 565px;
-  text-align: center; }
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  border-radius: 4px; }
+  #slider_head ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    list-style: none; }
+    #slider_head ul li {
+      position: relative;
+      display: block;
+      float: left;
+      margin: 0;
+      padding: 0;
+      width: 1024px;
+      height: 100px;
+      text-align: center; }
 
 div.control_prev, div.control_next {
   position: absolute;
@@ -1375,6 +1396,9 @@ div.control_next {
   width: 160px;
   font-size: 18px; }
 
+@media (max-width: 1024px) {
+  #slider ul li {
+    width: 662px; } }
 @media (max-width: 767px) {
   .map {
     -ms-transform: scale(0.7);
@@ -1427,6 +1451,12 @@ div.control_next {
   footer div.row div.back_top {
     margin-top: 19px; } }
 @media (max-width: 662px) {
+  div.content .take_action_page .slider .slider1 h2 {
+    font-size: 25px; }
+
+  #slider ul li {
+    width: 450px; }
+
   .map {
     -ms-transform: scale(0.4);
     -webkit-transform: scale(0.4);
@@ -1434,6 +1464,9 @@ div.control_next {
     transform-origin: 0px;
     margin: 0 auto; } }
 @media (max-width: 450px) {
+  #slider ul li {
+    width: 320px; }
+
   .map {
     -ms-transform: scale(0.3);
     -webkit-transform: scale(0.3);

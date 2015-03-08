@@ -1136,6 +1136,7 @@ div.content {
         display: inline-block;
         margin-bottom: 33px;
         position: relative;
+        cursor: pointer;
         .story_heading {
           position: absolute;
           bottom: 0px;
@@ -1574,27 +1575,53 @@ div#header_donation {
   overflow: hidden;
   margin: 20px auto 0 auto;
   border-radius: 4px;
+  ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    list-style: none;
+    li {
+      position: relative;
+      display: block;
+      float: left;
+      margin: 0;
+      padding: 0;
+      width: 1024px;
+      height: 565px;
+      text-align: center;
+
+    }
+  }
 }
 
-#slider ul {
+
+#slider_head {
+  height: 100px;
   position: relative;
-  margin: 0;
-  padding: 0;
-  height: 200px;
-  list-style: none;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  border-radius: 4px;
+  ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    list-style: none;
+    li {
+      position: relative;
+      display: block;
+      float: left;
+      margin: 0;
+      padding: 0;
+      width: 1024px;
+      height: 100px;
+      text-align: center;
+
+    }
+  }
 }
 
-#slider ul li {
-  position: relative;
-  display: block;
-  float: left;
-  margin: 0;
-  padding: 0;
-  width: 1024px;
-  height: 565px;
-  text-align: center;
-
-}
 
 div.control_prev, div.control_next {
   position: absolute;
@@ -1646,6 +1673,12 @@ div.control_next {
 
 // @media
 
+@media (max-width: 1024px) {
+  #slider ul li {
+    width: 662px;
+  }
+
+}
 @media (max-width: 767px) {
 
   .map {
@@ -1718,6 +1751,14 @@ div.control_next {
   }
 }
 @media (max-width: 662px) {
+  div.content .take_action_page .slider .slider1 h2
+  {
+    font-size: 25px;
+  }
+  #slider ul li {
+    width: 450px;
+  }
+
   .map {
     -ms-transform: scale(0.4);
     -webkit-transform: scale(0.4);
@@ -1727,6 +1768,10 @@ div.control_next {
   }
 }
 @media (max-width: 450px) {
+  #slider ul li {
+    width: 320px;
+  }
+
   .map {
     -ms-transform: scale(0.3);
     -webkit-transform: scale(0.3);
