@@ -118,7 +118,18 @@ header {
     }
     img {
       height: 30px;
+      &:hover
+      {
+        border:2px solid white;
+      }
 
+    }
+    .search-container
+    {
+      img:hover
+      {
+        border:0;
+      }
     }
   }
   .logo {
@@ -356,12 +367,12 @@ div.content {
     .why_matters {
       background: url("../images/about/about_background.png") no-repeat;
       width: 100%;
-      height: 578px;
       margin: 0 auto;
       background-position: top center;
       text-align: center;
-      padding-top: 79px;
+      padding: 79px;
       background-size: cover;
+
       h2 {
         color: white;
         text-align: center;
@@ -442,6 +453,7 @@ div.content {
           background: url('../images/about/slider1.jpg') no-repeat;
           background-size: cover;
           height: 521px;
+          padding:11px;
         }
 
       }
@@ -497,21 +509,100 @@ div.content {
     .humanitarian_expert {
       background: #f68e56;
       text-align: center;
-      padding: 23px;
+      padding:0;
+      padding-top:23px;
+      padding-bottom:23px;
+
+      .hide_head
+      {
+        display: none;
+      }
+      .expert_head {
+        width: 172px;
+        height: 172px;
+        display: inline-block;
+        background: url('../images/about/expert_head.png') no-repeat;
+        background-position: center;
+        position: relative;
+        &:hover
+        {
+          opacity: 0.6;
+        }
+        span {
+          font-size: 12px;
+        }
+      }
+
+
+      .head_content {
+        position: absolute;
+        width: 169px;
+        height: 171px;
+        background: rgba(0, 0, 0, 0.54);
+        border-radius: 50%;
+        padding-top: 37px;
+        color: white;
+        h2 {
+          font-size: 19px;
+        }
+      }
+
+
+      .expert_content {
+        padding:20px;
+        background: #464646;
+        color: white;
+        display: none;
+        margin-top:15px;
+        margin-bottom: 15px;
+        .row{
+          margin:0 auto;
+          .col-sm-4
+          {
+            text-align: left;
+          }
+          .col-sm-8
+          {
+            text-align: left;
+          }
+        }
+        h2 {
+          font-family: 'latoheavy';
+          font-size: 48px;
+        }
+        h3 {
+          font-family: 'latobold';
+          font-size: 30px;
+          color: white;
+          margin-bottom: 60px;
+          font-style: italic;
+        }
+        .content_head
+        {
+          font-family: 'latoregular';
+          font-size: 16px;
+        }
+      }
+
+
+      .email_icon {
+        background: url('../images/email_icon.png') no-repeat;
+        width: 95px;
+        height: 67px;
+        text-align: center;
+      }
+
+
       h3 {
         font-family: latoblack;
         font-size: 48px;
         color: white;
         margin-bottom: 60px;
       }
-      .expert_head {
-        width: 191px;
-        height: 191px;
-        display: inline-block;
-      }
+
     }
     .our_partners {
-      height: 500px;
+      height: auto;
       text-align: center;
       padding-top: 47px;
 
@@ -591,6 +682,7 @@ div.content {
         height: 623px;
         color: white;
         padding-top: 40px;
+
         h3
         {
           font-family: 'latoheavy';
@@ -1587,7 +1679,7 @@ div#header_donation {
   height: 565px;
   position: relative;
   overflow: hidden;
-  margin: 20px auto 0 auto;
+  margin:0 auto;
   border-radius: 4px;
   ul {
     position: relative;
@@ -1601,7 +1693,7 @@ div#header_donation {
       float: left;
       margin: 0;
       padding: 0;
-      width: 1024px;
+      width: 100%;
       height: 565px;
       text-align: center;
 
@@ -1668,11 +1760,11 @@ div.control_prev:hover, div.control_next:hover {
 
 div.control_prev {
   border-radius: 0 2px 2px 0;
-  left: 10px;
+  left: 20px;
 }
 
 div.control_next {
-  right: 10px;
+  right: 20px;
   border-radius: 2px 0 0 2px;
 }
 
@@ -1689,7 +1781,7 @@ div.control_next {
 
 @media (max-width: 1024px) {
   #slider ul li {
-    width: 662px;
+    //width: 662px;
   }
 
 }
@@ -1702,10 +1794,14 @@ div.control_next {
     transform-origin: 0px;
     margin: 0 auto;
   }
-
-  div.content .home_page .unique
+  div.content .about_page .unique h2
+  {
+    margin:0 auto;
+  }
+  div.content .home_page .unique, div.content .about_page .unique
   {
     width: 100%;
+    height: auto;
    span
     {
         width: 100%;
@@ -1771,7 +1867,7 @@ div.control_next {
     font-size: 25px;
   }
   #slider ul li {
-    width: 450px;
+    //width: 450px;
   }
 
   .map {
@@ -1784,7 +1880,7 @@ div.control_next {
 }
 @media (max-width: 450px) {
   #slider ul li {
-    width: 320px;
+    //width: 320px;
   }
 
   .map {

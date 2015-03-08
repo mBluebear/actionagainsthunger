@@ -84,6 +84,7 @@ $('.hand, .help_us_button').click(function(){
         var slideHeight = $('#slider ul li').height();
         var sliderUlWidth = slideCount * slideWidth;
 
+        $('#slider ul li').css({ width: slideWidth });
         $('#slider').css({ width: slideWidth, height: slideHeight });
 
         $('#slider ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
@@ -146,7 +147,22 @@ $('.hand, .help_us_button').click(function(){
             $('#slider_head ul').css('left', '');
         });
     };
+var lastid;
+    $('.expert_head').click(function(){
+        $('.head_content').addClass('hide_head');
 
+        $('.expert_content').hide();
+        if(lastid!=$(this).data('id'))
+        {
+            $('.expert_head[data-id="'+$(this).data('id')+'"] .head_content').removeClass('hide_head');
+            $('.expert_content[data-id="'+$(this).data('id')+'"]').show(function(){
+
+
+                lastid = $(this).data('id');
+            });
+        }
+
+    });
 });
 function shuffle(o){ //v1.0
     for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
