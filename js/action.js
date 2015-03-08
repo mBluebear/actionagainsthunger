@@ -41,13 +41,17 @@ $('.hand, .help_us_button').click(function(){
     });
 
     $('.menu_action').click(function(){
-        $('.action_menu_click').show();
+
 /*        $('.action_menu_click div.action_click').hide();
         $('.menu_action').removeClass('active');*/
         if($(this).hasClass('make_donation'))
         {
+            $('.action_menu_click').show();
             $('.action_menu_click .make_donation').show();
             $('.menu_action.make_donation').addClass('active');
+        } else
+        {
+            $('.action_menu_click').hide();
         }
 
 
