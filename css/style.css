@@ -1,6 +1,14 @@
 @charset "UTF-8";
 /* Scss Document */
 @font-face {
+  font-family: 'KeplerStd-MediumExtIt';
+  src: url("../font/KeplerStd-MediumExtIt_gdi.eot");
+  src: url("../font/KeplerStd-MediumExtIt_gdi.eot?#iefix") format("embedded-opentype"), url("../font/KeplerStd-MediumExtIt_gdi.woff") format("woff"), url("../font/KeplerStd-MediumExtIt_gdi.ttf") format("truetype"), url("../font/KeplerStd-MediumExtIt_gdi.svg#KeplerStd-MediumExtIt") format("svg");
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: expanded;
+  unicode-range: U+0020-25CA; }
+@font-face {
   font-family: 'latoheavy';
   src: url("../font/Lato-Heavy-webfont.eot");
   src: url("../font/Lato-Heavy-webfont.eot?#iefix") format("embedded-opentype"), url("../font/Lato-Heavy-webfont.woff2") format("woff2"), url("../font/Lato-Heavy-webfont.woff") format("woff"), url("../font/Lato-Heavy-webfont.ttf") format("truetype"), url("../font/Lato-Heavy-webfont.svg#latoheavy") format("svg");
@@ -1260,6 +1268,27 @@ div#nutrition .modal-content {
     padding: 40px;
     font-family: 'latoregular';
     font-size: 16px; }
+    div#nutrition .modal-content .modal-body .quate {
+      font-size: 22px;
+      font-family: 'latothin';
+      text-align: center;
+      padding: 30px; }
+      div#nutrition .modal-content .modal-body .quate::before {
+        color: #f15b22;
+        content: open-quote;
+        font-size: 101px;
+        line-height: 0.4;
+        margin-right: 13px;
+        vertical-align: -9px;
+        font-family: 'KeplerStd-MediumExtIt'; }
+      div#nutrition .modal-content .modal-body .quate::after {
+        color: #f15b22;
+        content: close-quote;
+        font-size: 101px;
+        line-height: 0.4;
+        margin-right: -16px;
+        vertical-align: -57px;
+        font-family: 'KeplerStd-MediumExtIt'; }
     div#nutrition .modal-content .modal-body img {
       text-align: center;
       display: block;

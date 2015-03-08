@@ -2,6 +2,18 @@
 
 $light-grey: #ccc;
 $text-color: #222;
+@font-face {
+  font-family:'KeplerStd-MediumExtIt';
+  src: url('../font/KeplerStd-MediumExtIt_gdi.eot');
+  src: url('../font/KeplerStd-MediumExtIt_gdi.eot?#iefix') format('embedded-opentype'),
+  url('../font/KeplerStd-MediumExtIt_gdi.woff') format('woff'),
+  url('../font/KeplerStd-MediumExtIt_gdi.ttf') format('truetype'),
+  url('../font/KeplerStd-MediumExtIt_gdi.svg#KeplerStd-MediumExtIt') format('svg');
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: expanded;
+  unicode-range: U+0020-25CA;
+}
 
 @font-face {
   font-family: 'latoheavy';

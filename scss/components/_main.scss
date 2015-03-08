@@ -1509,6 +1509,31 @@ div#nutrition {
     border: 0;
     .modal-body {
       padding:40px;
+      .quate
+      {
+        font-size: 22px;
+        font-family: 'latothin';
+        text-align: center;
+        padding:30px;
+        &::before {
+          color: #f15b22;
+          content: open-quote;
+          font-size: 101px;
+          line-height: 0.4;
+          margin-right: 13px;
+          vertical-align: -9px;
+          font-family: 'KeplerStd-MediumExtIt';
+        }
+        &::after {
+          color: #f15b22;
+          content: close-quote;
+          font-size: 101px;
+          line-height: 0.4;
+          margin-right: -16px;
+          vertical-align: -57px;
+          font-family: 'KeplerStd-MediumExtIt';
+        }
+      }
       img
       {
         text-align: center;
