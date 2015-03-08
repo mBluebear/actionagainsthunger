@@ -1236,7 +1236,8 @@ footer {
       background: transparent;
       color: #f15b22;
       border-radius: 0;
-      border: 3px solid #f15b22; }
+      border: 3px solid #f15b22;
+      cursor: pointer; }
 
 div#nutrition .modal-dialog {
   width: 847px; }
@@ -1466,21 +1467,23 @@ div#header_donation .modal-content {
   height: 100px;
   position: relative;
   overflow: hidden;
-  margin: 20px auto 0 auto;
-  border-radius: 4px; }
+  margin: 0 auto;
+  border-radius: 4px;
+  width: 80%; }
   #slider_head ul {
     position: relative;
     margin: 0;
     padding: 0;
     height: 200px;
-    list-style: none; }
+    list-style: none;
+    margin: 0 auto; }
     #slider_head ul li {
       position: relative;
       display: block;
       float: left;
       margin: 0;
       padding: 0;
-      width: 1024px;
+      width: 100%;
       height: 100px;
       text-align: center; }
 
@@ -1525,12 +1528,22 @@ div.control_next {
   font-size: 18px; }
 
 @media (max-width: 1024px) {
+  #slider_head ul li {
+    width: 100%; }
+
   div#header_donation .modal-dialog, div#nutrition .modal-dialog, div#header_donation .modal-header, div#nutrition .modal-header {
     width: 100%; }
 
   div#header_donation .modal-header, div#nutrition .modal-header {
     background-size: cover; } }
+@media (max-width: 800px) {
+  #slider_head, #slider_head ul li {
+    height: 300px; } }
 @media (max-width: 767px) {
+  div.control_next, div.control_prev {
+    background-size: 50%;
+    background-position: center; }
+
   div.content .header .hand {
     margin: 0 auto;
     text-align: center; }
