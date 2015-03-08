@@ -137,6 +137,10 @@ header {
     top: 10px;
     left: 10px;
     width: 135px;
+    a img {
+      width: 100%;
+      height: 100%;
+    }
   }
   nav.navbar.navbar-default {
     &.scroll {
@@ -1871,6 +1875,7 @@ div.control_next {
     .logo {
       width: 90px;
       top: 23px;
+
     }
     .social_icon {
       margin-right: 69px;
