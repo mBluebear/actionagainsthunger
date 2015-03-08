@@ -282,7 +282,7 @@ div.content {
           font-family: latobold;
         }
       }
-      img.hand {
+      div.hand {
         position: absolute;
         right: -233px;
         top: 106px;
@@ -359,7 +359,7 @@ div.content {
           font-family: latobold;
         }
       }
-      img.hand {
+      div.hand {
         position: absolute;
         right: -233px;
         top: 106px;
@@ -1322,10 +1322,17 @@ div.content {
 
     margin: 0 auto;
     position: relative;
-    img.hand {
+    .hand {
       position: absolute;
       right: 0px;
       bottom: 20px;
+      width: 130px;
+      height: 104px;
+      background: #f26522 url('../images/about/hand.png');
+      &:hover
+      {
+        background: #D0551B url("../images/about/hand.png");
+      }
     }
     .content_header {
       width: 80%;
@@ -1514,6 +1521,25 @@ div#nutrition {
       h4 {
         font-family: 'latobold';
         font-size: 22px;
+      }
+
+      .footer_text {
+        font-family: 'latobold';
+        font-size: 32px;
+        color: #f15b22;
+        padding:30px;
+      }
+      .donate_button {
+        font-family: 'latoregular';
+        font-size: 25px;
+        text-transform: uppercase;
+        color: #f15b22;
+        width: 320px;
+        height: 64px;
+        border: 3px solid;
+        text-align: CENTER;
+        margin: 0 auto;
+        padding-top: 10px;
       }
     }
   }
@@ -1817,7 +1843,7 @@ div.control_next {
     text-align: center;
     bottom: 101px;
   }
-  div.content .header img.hand
+  div.content .header div.hand
   {
     left: 0;
     right: 0;

@@ -37,7 +37,7 @@ $('.hand, .help_us_button').click(function(){
     });
 
     $('.modal').on('show.bs.modal', function () {
-        $('.modal-content').css({'height': ($(window).height()-130), 'overflow':'scroll','margin-top':'91px'});
+        $('.modal-content').css({'height': ($(window).height()-150), 'overflow':'scroll','margin-top':'111px'});
     });
 
     $('.menu_action').click(function(){
