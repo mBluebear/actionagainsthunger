@@ -1839,16 +1839,21 @@ div.control_next {
 // @media
 
 @media (max-width: 1024px) {
+  div#header_donation .modal-dialog, div#nutrition .modal-dialog, div#header_donation .modal-header, div#nutrition .modal-header
+  {
+    width: 100%;
+  }
+  div#header_donation .modal-header, div#nutrition .modal-header
+  {
+    background-size: cover;
+  }
   #slider ul li {
     //width: 662px;
   }
 
 }
 @media (max-width: 767px) {
-  div#header_donation .modal-dialog, div#nutrition .modal-dialog, div#header_donation .modal-header, div#nutrition .modal-header
-  {
-    width: 100%;
-  }
+
   div.content .header .hand
   {
     margin:0 auto;
