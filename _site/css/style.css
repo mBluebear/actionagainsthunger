@@ -399,7 +399,7 @@ div.content {
       text-align: center;
       margin-top: 26px;
       margin-left: -96px; }
-    div.content .about_page .unique span {
+    div.content .about_page .unique div.span {
       display: block;
       width: 593px;
       margin: 0 auto;
@@ -408,18 +408,18 @@ div.content {
       font-size: 16px;
       font-family: latoregular;
       top: 4px; }
-      div.content .about_page .unique span ul {
+      div.content .about_page .unique div.span ul {
         list-style: none;
         margin-left: -29px;
         margin-top: 11px;
         line-height: 2.5; }
-        div.content .about_page .unique span ul li b {
+        div.content .about_page .unique div.span ul li b {
           font-family: latobold; }
-        div.content .about_page .unique span ul li:before {
+        div.content .about_page .unique div.span ul li:before {
           content: "• ";
           color: #f15b22;
           font-size: 18px; }
-      div.content .about_page .unique span a {
+      div.content .about_page .unique div.span a {
         color: #f15b22;
         font-family: latobold; }
     div.content .about_page .unique div.hand {
@@ -1542,7 +1542,7 @@ div.control_next {
   div.content .home_page .unique, div.content .about_page .unique {
     width: 100%;
     height: auto; }
-    div.content .home_page .unique span, div.content .about_page .unique span {
+    div.content .home_page .unique div.span, div.content .about_page .unique div.span {
       width: 100%;
       left: 0; }
 
