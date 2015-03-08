@@ -1088,13 +1088,13 @@ div.content {
           background: rgba(0, 0, 0, 0.45);
           width: 100%;
           font-family: 'latoheavy';
-          font-size: 12px;
+          font-size: 10px;
           text-align: left;
           padding: 0;
           padding-left: 11px;
           color: white; }
           div.content .stories_page .stories_list .story .story_heading h2 {
-            font-size: 22px;
+            font-size: 12px;
             margin: 0 auto;
             margin-top: 9px; }
         div.content .stories_page .stories_list .story.s1 {
