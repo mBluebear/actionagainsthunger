@@ -1569,6 +1569,7 @@ div#nutrition {
         text-align: CENTER;
         margin: 0 auto;
         padding-top: 10px;
+        cursor: pointer;
       }
     }
   }
@@ -1844,6 +1845,10 @@ div.control_next {
 
 }
 @media (max-width: 767px) {
+  div#header_donation .modal-dialog, div#nutrition .modal-dialog, div#header_donation .modal-header, div#nutrition .modal-header
+  {
+    width: 100%;
+  }
   div.content .header .hand
   {
     margin:0 auto;
@@ -1932,6 +1937,19 @@ div.control_next {
   }
 }
 @media (max-width: 662px) {
+  div#header_donation .modal-content .modal-body .donation_form .select {
+    display: block;
+    position: static;
+  }
+  div#header_donation .modal-content .modal-body .donation_form .donation_text
+  {
+    display: block;
+    position: static;
+  }
+  div#header_donation .modal-content .modal-body .donation_form
+  {
+    margin-bottom: 100px;
+  }
   div.content .take_action_page .slider .slider1 h2
   {
     font-size: 25px;
@@ -1949,6 +1967,10 @@ div.control_next {
   }
 }
 @media (max-width: 450px) {
+  div#header_donation .modal-content .modal-body .sent_button, div#nutrition .modal-content .modal-body .donate_button
+  {
+    width: 100%;
+  }
   #slider ul li {
     //width: 320px;
   }

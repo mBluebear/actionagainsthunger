@@ -28,7 +28,7 @@ $(document).ready(function () {
         }
 
     });
-$('.hand, .help_us_button').click(function(){
+$('.hand, .help_us_button, .donate_button').click(function(){
     $('#header_donation').modal('show')
 });
 
